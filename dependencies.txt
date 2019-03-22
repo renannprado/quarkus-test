@@ -1,0 +1,1837 @@
+Starting a Gradle Daemon, 1 busy and 2 incompatible and 1 stopped Daemons could not be reused, use --status for details
+
+> Task :dependencies
+
+------------------------------------------------------------
+Root project
+------------------------------------------------------------
+
+annotationProcessor - Annotation processors and their dependencies for source set 'main'.
+No dependencies
+
+api - API dependencies for compilation 'main' (target  (jvm)). (n)
+No dependencies
+
+apiDependenciesMetadata
+No dependencies
+
+apiElements - API elements for main. (n)
+No dependencies
+
+archives - Configuration for archive artifacts.
+No dependencies
+
+compile - Dependencies for compilation 'main' (target  (jvm)) (deprecated, use 'implementation ' instead).
+No dependencies
+
+compileClasspath - Compile classpath for compilation 'main' (target  (jvm)).
++--- io.quarkus:quarkus-resteasy -> 0.11.0
+|    +--- io.quarkus:quarkus-core:0.11.0
+|    |    +--- commons-beanutils:commons-beanutils-core:1.8.3
+|    |    |    \--- commons-logging:commons-logging:1.1.1 -> 1.2
+|    |    +--- org.jboss.invocation:jboss-invocation:1.5.1.Final
+|    |    +--- org.wildfly.common:wildfly-common:1.5.0.Final-format-001
+|    |    +--- org.jboss.classfilewriter:jboss-classfilewriter:1.2.4.Final
+|    |    +--- io.quarkus.gizmo:gizmo:1.0.0.Alpha2
+|    |    |    +--- org.ow2.asm:asm:6.2.1
+|    |    |    \--- org.jboss:jandex:2.1.0.Final -> 2.1.1.Final
+|    |    +--- org.jboss:jandex:2.1.1.Final
+|    |    +--- org.ow2.asm:asm:6.2.1
+|    |    +--- io.quarkus:quarkus-core-runtime:0.11.0
+|    |    |    +--- javax.inject:javax.inject:1
+|    |    |    +--- javax.annotation:javax.annotation-api:1.3.2
+|    |    |    +--- io.smallrye:smallrye-config:1.3.5
+|    |    |    |    +--- org.eclipse.microprofile.config:microprofile-config-api:1.3
+|    |    |    |    |    \--- org.osgi:org.osgi.annotation.versioning:1.0.0
+|    |    |    |    +--- javax.enterprise:cdi-api:1.2 -> 2.0
+|    |    |    |    |    +--- javax.el:javax.el-api:3.0.0
+|    |    |    |    |    +--- javax.interceptor:javax.interceptor-api:1.2
+|    |    |    |    |    \--- javax.inject:javax.inject:1
+|    |    |    |    +--- javax.annotation:javax.annotation-api:1.2 -> 1.3.2
+|    |    |    |    \--- org.jboss.logging:jboss-logging:3.3.2.Final
+|    |    |    +--- org.jboss.logging:jboss-logging:3.3.2.Final
+|    |    |    +--- org.jboss.logmanager:jboss-logmanager-embedded:1.0.0
+|    |    |    |    +--- com.oracle.substratevm:svm:1.0.0-rc12
+|    |    |    |    \--- org.wildfly.common:wildfly-common:1.5.0.Final-format-001
+|    |    |    +--- org.jboss.logging:jboss-logging-annotations:2.1.0.Final
+|    |    |    +--- org.jboss.threads:jboss-threads:3.0.0.Alpha4
+|    |    |    |    +--- org.jboss.logging:jboss-logging:3.3.1.Final -> 3.3.2.Final
+|    |    |    |    \--- org.wildfly.common:wildfly-common:1.4.0.Final -> 1.5.0.Final-format-001
+|    |    |    +--- org.slf4j:slf4j-api:1.7.25
+|    |    |    +--- org.jboss.slf4j:slf4j-jboss-logging:1.1.0.Final
+|    |    |    |    +--- org.slf4j:slf4j-api:1.7.21 -> 1.7.25
+|    |    |    |    \--- org.jboss.logging:jboss-logging:3.3.0.Final -> 3.3.2.Final
+|    |    |    +--- org.graalvm.sdk:graal-sdk:1.0.0-rc12
+|    |    |    +--- org.wildfly.common:wildfly-common:1.5.0.Final-format-001
+|    |    |    +--- org.wildfly.security:wildfly-elytron-ssl:2.0.0.Alpha1
+|    |    |    |    +--- org.wildfly.security:wildfly-elytron-auth-server:2.0.0.Alpha1
+|    |    |    |    |    +--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-auth:2.0.0.Alpha1
+|    |    |    |    |    |    +--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    |    |    |    |    \--- org.wildfly.security:wildfly-elytron-util:2.0.0.Alpha1
+|    |    |    |    |    |         +--- org.wildfly.security:wildfly-elytron-asn1:2.0.0.Alpha1
+|    |    |    |    |    |         |    +--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    |    |    |    |         |    \--- org.jboss.logging:jboss-logging:3.3.1.Final -> 3.3.2.Final
+|    |    |    |    |    |         +--- org.wildfly.security:wildfly-elytron-base:2.0.0.Alpha1
+|    |    |    |    |    |         |    +--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    |    |    |    |         |    \--- org.jboss.logging:jboss-logging:3.3.1.Final -> 3.3.2.Final
+|    |    |    |    |    |         \--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-base:2.0.0.Alpha1 (*)
+|    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-credential:2.0.0.Alpha1
+|    |    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-asn1:2.0.0.Alpha1 (*)
+|    |    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-util:2.0.0.Alpha1 (*)
+|    |    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-x500:2.0.0.Alpha1
+|    |    |    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-asn1:2.0.0.Alpha1 (*)
+|    |    |    |    |    |    |    \--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    |    |    |    |    \--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-permission:2.0.0.Alpha1
+|    |    |    |    |    |    +--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-util:2.0.0.Alpha1 (*)
+|    |    |    |    |    |    \--- org.jboss.logging:jboss-logging:3.3.1.Final -> 3.3.2.Final
+|    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-util:2.0.0.Alpha1 (*)
+|    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-x500:2.0.0.Alpha1 (*)
+|    |    |    |    |    \--- org.jboss.logging:jboss-logging:3.3.1.Final -> 3.3.2.Final
+|    |    |    |    +--- org.wildfly.security:wildfly-elytron-base:2.0.0.Alpha1 (*)
+|    |    |    |    +--- org.wildfly.security:wildfly-elytron-credential:2.0.0.Alpha1 (*)
+|    |    |    |    +--- org.wildfly.security:wildfly-elytron-auth:2.0.0.Alpha1 (*)
+|    |    |    |    +--- org.wildfly.security:wildfly-elytron-util:2.0.0.Alpha1 (*)
+|    |    |    |    +--- org.wildfly.security:wildfly-elytron-x500:2.0.0.Alpha1 (*)
+|    |    |    |    +--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    |    |    \--- org.jboss.logging:jboss-logging:3.3.1.Final -> 3.3.2.Final
+|    |    |    \--- org.wildfly.security:wildfly-elytron-x500-cert:2.0.0.Alpha1
+|    |    |         +--- org.wildfly.security:wildfly-elytron-asn1:2.0.0.Alpha1 (*)
+|    |    |         +--- org.wildfly.security:wildfly-elytron-x500:2.0.0.Alpha1 (*)
+|    |    |         +--- org.wildfly.security:wildfly-elytron-x500-cert-util:2.0.0.Alpha1
+|    |    |         |    \--- org.wildfly.security:wildfly-elytron-asn1:2.0.0.Alpha1 (*)
+|    |    |         \--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    \--- io.quarkus:quarkus-builder:0.11.0
+|    |         +--- org.wildfly.common:wildfly-common:1.5.0.Final-format-001
+|    |         +--- org.jboss.logging:jboss-logging:3.3.2.Final
+|    |         \--- org.jboss.threads:jboss-threads:3.0.0.Alpha4 (*)
+|    +--- io.quarkus:quarkus-resteasy-common:0.11.0
+|    |    \--- io.quarkus:quarkus-resteasy-common-runtime:0.11.0
+|    |         +--- io.quarkus:quarkus-core-runtime:0.11.0 (*)
+|    |         \--- org.jboss.resteasy:resteasy-core:4.0.0.Beta8
+|    |              +--- org.jboss.spec.javax.ws.rs:jboss-jaxrs-api_2.1_spec:1.0.2.Final
+|    |              +--- org.jboss.spec.javax.xml.bind:jboss-jaxb-api_2.3_spec:1.0.1.Final
+|    |              +--- org.jboss.resteasy:resteasy-core-spi:4.0.0.Beta8
+|    |              |    +--- org.jboss.spec.javax.ws.rs:jboss-jaxrs-api_2.1_spec:1.0.2.Final
+|    |              |    +--- org.jboss.spec.javax.xml.bind:jboss-jaxb-api_2.3_spec:1.0.1.Final
+|    |              |    +--- org.reactivestreams:reactive-streams:1.0.2
+|    |              |    +--- javax.validation:validation-api:2.0.1.Final
+|    |              |    +--- org.apache.httpcomponents:httpclient:4.5.4 -> 4.5.6
+|    |              |    |    +--- org.apache.httpcomponents:httpcore:4.4.10
+|    |              |    |    +--- commons-logging:commons-logging:1.2
+|    |              |    |    \--- commons-codec:commons-codec:1.10
+|    |              |    +--- commons-io:commons-io:2.5
+|    |              |    +--- net.jcip:jcip-annotations:1.0
+|    |              |    \--- org.jboss.logging:jboss-logging:3.3.2.Final
+|    |              +--- org.reactivestreams:reactive-streams:1.0.2
+|    |              +--- javax.validation:validation-api:2.0.1.Final
+|    |              +--- org.apache.httpcomponents:httpclient:4.5.4 -> 4.5.6 (*)
+|    |              +--- commons-io:commons-io:2.5
+|    |              +--- net.jcip:jcip-annotations:1.0
+|    |              \--- org.jboss.logging:jboss-logging:3.3.2.Final
+|    +--- io.quarkus:quarkus-undertow:0.11.0
+|    |    +--- io.undertow:undertow-servlet:2.0.17.Final
+|    |    |    +--- io.undertow:undertow-core:2.0.17.Final
+|    |    |    |    +--- org.jboss.logging:jboss-logging:3.3.2.Final
+|    |    |    |    \--- org.jboss.xnio:xnio-api:3.3.8.Final -> 3.6.5.Final
+|    |    |    |         +--- org.wildfly.common:wildfly-common:1.3.0.Final -> 1.5.0.Final-format-001
+|    |    |    |         \--- org.jboss.threads:jboss-threads:2.3.0.Beta2 -> 3.0.0.Alpha4 (*)
+|    |    |    \--- org.jboss.spec.javax.servlet:jboss-servlet-api_4.0_spec:1.0.0.Final
+|    |    +--- io.quarkus:quarkus-core:0.11.0 (*)
+|    |    +--- io.quarkus:quarkus-arc:0.11.0
+|    |    |    +--- io.quarkus:quarkus-core:0.11.0 (*)
+|    |    |    +--- io.quarkus:quarkus-arc-runtime:0.11.0
+|    |    |    |    +--- io.quarkus.arc:arc-runtime:0.11.0
+|    |    |    |    |    +--- javax.enterprise:cdi-api:2.0.SP1 -> 2.0 (*)
+|    |    |    |    |    +--- javax.annotation:javax.annotation-api:1.3.2
+|    |    |    |    |    \--- org.jboss.logging:jboss-logging:3.3.2.Final
+|    |    |    |    \--- io.quarkus:quarkus-core-runtime:0.11.0 (*)
+|    |    |    \--- io.quarkus.arc:arc-processor:0.11.0
+|    |    |         +--- io.quarkus.arc:arc-runtime:0.11.0 (*)
+|    |    |         +--- javax.enterprise:cdi-api:2.0.SP1 -> 2.0 (*)
+|    |    |         +--- org.jboss.logging:jboss-logging:3.3.2.Final
+|    |    |         +--- org.jboss:jandex:2.1.0.Final -> 2.1.1.Final
+|    |    |         +--- io.quarkus.gizmo:gizmo:1.0.0.Alpha2 (*)
+|    |    |         \--- javax.annotation:javax.annotation-api:1.3.2
+|    |    +--- io.quarkus:quarkus-undertow-runtime:0.11.0
+|    |    |    +--- io.quarkus:quarkus-arc-runtime:0.11.0 (*)
+|    |    |    +--- io.undertow:undertow-servlet:2.0.17.Final (*)
+|    |    |    +--- org.jboss.xnio:xnio-nio:3.6.5.Final
+|    |    |    |    \--- org.jboss.xnio:xnio-api:3.6.5.Final (*)
+|    |    |    +--- org.jboss.xnio:xnio-api:3.6.5.Final (*)
+|    |    |    \--- io.quarkus:quarkus-core-runtime:0.11.0 (*)
+|    |    \--- org.jboss.metadata:jboss-metadata-web:11.0.0.Final
+|    |         \--- org.jboss.metadata:jboss-metadata-common:11.0.0.Final
+|    +--- io.quarkus:quarkus-arc:0.11.0 (*)
+|    +--- io.quarkus:quarkus-jaxb:0.11.0
+|    |    +--- io.quarkus:quarkus-core:0.11.0 (*)
+|    |    \--- io.quarkus:quarkus-jaxb-runtime:0.11.0
+|    |         +--- io.quarkus:quarkus-core-runtime:0.11.0 (*)
+|    |         \--- javax.xml.bind:jaxb-api:2.3.1
+|    \--- io.quarkus:quarkus-resteasy-runtime:0.11.0
+|         +--- io.quarkus:quarkus-core-runtime:0.11.0 (*)
+|         +--- io.quarkus:quarkus-undertow-runtime:0.11.0 (*)
+|         +--- io.quarkus:quarkus-arc-runtime:0.11.0 (*)
+|         +--- io.quarkus:quarkus-resteasy-common-runtime:0.11.0 (*)
+|         +--- javax.validation:validation-api:2.0.1.Final
+|         +--- com.sun.activation:jakarta.activation:1.2.1
+|         \--- io.quarkus:quarkus-jaxb-runtime:0.11.0 (*)
++--- io.quarkus:quarkus-bom:0.11.0
+|    +--- io.quarkus:quarkus-arc:0.11.0 (c)
+|    +--- io.quarkus:quarkus-resteasy:0.11.0 (c)
+|    +--- io.quarkus:quarkus-resteasy-jsonb:0.11.0 (c)
+|    +--- io.quarkus:quarkus-kotlin:0.11.0 (c)
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.21 (c)
+|    +--- io.quarkus:quarkus-core:0.11.0 (c)
+|    +--- io.quarkus.arc:arc-processor:0.11.0 (c)
+|    +--- io.quarkus:quarkus-jaxb:0.11.0 (c)
+|    +--- io.quarkus:quarkus-undertow:0.11.0 (c)
+|    +--- org.jetbrains.kotlin:kotlin-compiler-embeddable:1.3.21 (c)
+|    +--- io.quarkus.gizmo:gizmo:1.0.0.Alpha2 (c)
+|    +--- commons-beanutils:commons-beanutils-core:1.8.3 (c)
+|    +--- org.jboss:jandex:2.1.1.Final (c)
+|    +--- org.jboss.classfilewriter:jboss-classfilewriter:1.2.4.Final (c)
+|    +--- org.jboss.invocation:jboss-invocation:1.5.1.Final (c)
+|    +--- org.wildfly.common:wildfly-common:1.5.0.Final-format-001 (c)
+|    +--- org.ow2.asm:asm:6.2.1 (c)
+|    +--- io.quarkus.arc:arc-runtime:0.11.0 (c)
+|    +--- org.jboss.logging:jboss-logging:3.3.2.Final (c)
+|    +--- javax.enterprise:cdi-api:2.0.SP1 -> 2.0 (c)
+|    +--- javax.annotation:javax.annotation-api:1.3.2 (c)
+|    +--- io.undertow:undertow-servlet:2.0.17.Final (c)
+|    +--- org.jboss.metadata:jboss-metadata-web:11.0.0.Final (c)
+|    +--- javax.validation:validation-api:2.0.1.Final (c)
+|    +--- com.sun.activation:jakarta.activation:1.2.1 (c)
+|    +--- org.jboss.resteasy:resteasy-json-p-provider:4.0.0.Beta8 (c)
+|    +--- org.jboss.resteasy:resteasy-json-binding-provider:4.0.0.Beta8 (c)
+|    +--- org.jboss.logmanager:jboss-logmanager-embedded:1.0.0 (c)
+|    +--- commons-logging:commons-logging:1.2 (c)
+|    +--- org.slf4j:slf4j-api:1.7.25 (c)
+|    +--- org.jboss.logging:jboss-logging-annotations:2.1.0.Final (c)
+|    +--- io.smallrye:smallrye-config:1.3.5 (c)
+|    +--- javax.inject:javax.inject:1 (c)
+|    +--- org.graalvm.sdk:graal-sdk:1.0.0-rc12 (c)
+|    +--- org.jboss.threads:jboss-threads:3.0.0.Alpha4 (c)
+|    +--- org.wildfly.security:wildfly-elytron-ssl:2.0.0.Alpha1 (c)
+|    +--- org.wildfly.security:wildfly-elytron-x500-cert:2.0.0.Alpha1 (c)
+|    +--- org.jboss.slf4j:slf4j-jboss-logging:1.1.0.Final (c)
+|    +--- org.jboss.resteasy:resteasy-core:4.0.0.Beta8 (c)
+|    +--- io.undertow:undertow-core:2.0.17.Final (c)
+|    +--- org.jboss.spec.javax.servlet:jboss-servlet-api_4.0_spec:1.0.0.Final (c)
+|    +--- org.jboss.xnio:xnio-api:3.6.5.Final (c)
+|    +--- org.jboss.xnio:xnio-nio:3.6.5.Final (c)
+|    +--- javax.xml.bind:jaxb-api:2.3.1 (c)
+|    +--- javax.json.bind:javax.json.bind-api:1.0 (c)
+|    +--- org.eclipse:yasson:1.0.2 (c)
+|    +--- org.glassfish:javax.json:1.1.4 (c)
+|    +--- com.oracle.substratevm:svm:1.0.0-rc12 (c)
+|    +--- org.eclipse.microprofile.config:microprofile-config-api:1.3 (c)
+|    +--- org.wildfly.security:wildfly-elytron-auth-server:2.0.0.Alpha1 (c)
+|    +--- org.jboss.spec.javax.xml.bind:jboss-jaxb-api_2.3_spec:1.0.1.Final (c)
+|    +--- org.jboss.spec.javax.ws.rs:jboss-jaxrs-api_2.1_spec:1.0.2.Final (c)
+|    +--- commons-io:commons-io:2.5 (c)
+|    +--- org.apache.httpcomponents:httpclient:4.5.6 (c)
+|    +--- net.jcip:jcip-annotations:1.0 (c)
+|    +--- org.reactivestreams:reactive-streams:1.0.2 (c)
+|    +--- org.jboss.resteasy:resteasy-core-spi:4.0.0.Beta8 (c)
+|    \--- org.apache.httpcomponents:httpcore:4.4.10 (c)
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.21
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.3.21
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.3.21
+|    |    \--- org.jetbrains:annotations:13.0
+|    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.21
+|         \--- org.jetbrains.kotlin:kotlin-stdlib:1.3.21 (*)
++--- io.quarkus:quarkus-arc -> 0.11.0 (*)
++--- io.quarkus:quarkus-resteasy-jsonb -> 0.11.0
+|    +--- io.quarkus:quarkus-resteasy:0.11.0 (*)
+|    \--- io.quarkus:quarkus-resteasy-jsonb-runtime:0.11.0
+|         +--- io.quarkus:quarkus-resteasy-runtime:0.11.0 (*)
+|         +--- org.jboss.resteasy:resteasy-json-binding-provider:4.0.0.Beta8
+|         |    +--- org.glassfish:javax.json:1.1.2 -> 1.1.4
+|         |    +--- javax.json.bind:javax.json.bind-api:1.0
+|         |    \--- org.eclipse:yasson:1.0.2
+|         |         +--- javax.json.bind:javax.json.bind-api:1.0
+|         |         \--- javax.enterprise:cdi-api:2.0 (*)
+|         \--- org.jboss.resteasy:resteasy-json-p-provider:4.0.0.Beta8
+|              \--- org.glassfish:javax.json:1.1.2 -> 1.1.4
+\--- io.quarkus:quarkus-kotlin -> 0.11.0
+     +--- io.quarkus:quarkus-development-mode:0.11.0
+     |    +--- io.quarkus:quarkus-core:0.11.0 (*)
+     |    \--- org.jboss.logmanager:jboss-logmanager-embedded:1.0.0 (*)
+     \--- org.jetbrains.kotlin:kotlin-compiler-embeddable:1.3.21
+
+compileOnly - Compile only dependencies for compilation 'main' (target  (jvm)).
+\--- io.quarkus:quarkus-resteasy FAILED
+
+compileOnlyDependenciesMetadata
+\--- io.quarkus:quarkus-resteasy FAILED
+
+default - Configuration for default artifacts.
++--- io.quarkus:quarkus-bom:0.11.0
+|    +--- io.quarkus:quarkus-arc:0.11.0 (c)
+|    +--- io.quarkus:quarkus-resteasy-jsonb:0.11.0 (c)
+|    +--- io.quarkus:quarkus-kotlin:0.11.0 (c)
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.21 (c)
+|    +--- io.quarkus:quarkus-core:0.11.0 (c)
+|    +--- io.quarkus.arc:arc-processor:0.11.0 (c)
+|    +--- io.quarkus:quarkus-resteasy:0.11.0 (c)
+|    +--- org.jetbrains.kotlin:kotlin-compiler-embeddable:1.3.21 (c)
+|    +--- io.quarkus.gizmo:gizmo:1.0.0.Alpha2 (c)
+|    +--- commons-beanutils:commons-beanutils-core:1.8.3 (c)
+|    +--- org.jboss:jandex:2.1.1.Final (c)
+|    +--- org.jboss.classfilewriter:jboss-classfilewriter:1.2.4.Final (c)
+|    +--- org.jboss.invocation:jboss-invocation:1.5.1.Final (c)
+|    +--- org.wildfly.common:wildfly-common:1.5.0.Final-format-001 (c)
+|    +--- org.ow2.asm:asm:6.2.1 (c)
+|    +--- io.quarkus.arc:arc-runtime:0.11.0 (c)
+|    +--- org.jboss.logging:jboss-logging:3.3.2.Final (c)
+|    +--- javax.enterprise:cdi-api:2.0.SP1 -> 2.0 (c)
+|    +--- javax.annotation:javax.annotation-api:1.3.2 (c)
+|    +--- io.quarkus:quarkus-jaxb:0.11.0 (c)
+|    +--- io.quarkus:quarkus-undertow:0.11.0 (c)
+|    +--- org.jboss.resteasy:resteasy-json-p-provider:4.0.0.Beta8 (c)
+|    +--- org.jboss.resteasy:resteasy-json-binding-provider:4.0.0.Beta8 (c)
+|    +--- org.jboss.logmanager:jboss-logmanager-embedded:1.0.0 (c)
+|    +--- commons-logging:commons-logging:1.2 (c)
+|    +--- org.slf4j:slf4j-api:1.7.25 (c)
+|    +--- org.jboss.logging:jboss-logging-annotations:2.1.0.Final (c)
+|    +--- io.smallrye:smallrye-config:1.3.5 (c)
+|    +--- javax.inject:javax.inject:1 (c)
+|    +--- org.graalvm.sdk:graal-sdk:1.0.0-rc12 (c)
+|    +--- org.jboss.threads:jboss-threads:3.0.0.Alpha4 (c)
+|    +--- org.wildfly.security:wildfly-elytron-ssl:2.0.0.Alpha1 (c)
+|    +--- org.wildfly.security:wildfly-elytron-x500-cert:2.0.0.Alpha1 (c)
+|    +--- org.jboss.slf4j:slf4j-jboss-logging:1.1.0.Final (c)
+|    +--- io.undertow:undertow-servlet:2.0.17.Final (c)
+|    +--- org.jboss.metadata:jboss-metadata-web:11.0.0.Final (c)
+|    +--- javax.validation:validation-api:2.0.1.Final (c)
+|    +--- com.sun.activation:jakarta.activation:1.2.1 (c)
+|    +--- javax.json.bind:javax.json.bind-api:1.0 (c)
+|    +--- org.eclipse:yasson:1.0.2 (c)
+|    +--- org.glassfish:javax.json:1.1.4 (c)
+|    +--- com.oracle.substratevm:svm:1.0.0-rc12 (c)
+|    +--- org.eclipse.microprofile.config:microprofile-config-api:1.3 (c)
+|    +--- org.wildfly.security:wildfly-elytron-auth-server:2.0.0.Alpha1 (c)
+|    +--- org.jboss.resteasy:resteasy-core:4.0.0.Beta8 (c)
+|    +--- io.undertow:undertow-core:2.0.17.Final (c)
+|    +--- org.jboss.spec.javax.servlet:jboss-servlet-api_4.0_spec:1.0.0.Final (c)
+|    +--- org.jboss.xnio:xnio-api:3.6.5.Final (c)
+|    +--- org.jboss.xnio:xnio-nio:3.6.5.Final (c)
+|    +--- javax.xml.bind:jaxb-api:2.3.1 (c)
+|    +--- org.jboss.spec.javax.xml.bind:jboss-jaxb-api_2.3_spec:1.0.1.Final (c)
+|    +--- org.jboss.spec.javax.ws.rs:jboss-jaxrs-api_2.1_spec:1.0.2.Final (c)
+|    +--- commons-io:commons-io:2.5 (c)
+|    +--- org.apache.httpcomponents:httpclient:4.5.6 (c)
+|    +--- net.jcip:jcip-annotations:1.0 (c)
+|    +--- org.reactivestreams:reactive-streams:1.0.2 (c)
+|    +--- org.jboss.resteasy:resteasy-core-spi:4.0.0.Beta8 (c)
+|    \--- org.apache.httpcomponents:httpcore:4.4.10 (c)
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.21
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.3.21
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.3.21
+|    |    \--- org.jetbrains:annotations:13.0
+|    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.21
+|         \--- org.jetbrains.kotlin:kotlin-stdlib:1.3.21 (*)
++--- io.quarkus:quarkus-arc -> 0.11.0
+|    +--- io.quarkus:quarkus-core:0.11.0
+|    |    +--- commons-beanutils:commons-beanutils-core:1.8.3
+|    |    |    \--- commons-logging:commons-logging:1.1.1 -> 1.2
+|    |    +--- org.jboss.invocation:jboss-invocation:1.5.1.Final
+|    |    +--- org.wildfly.common:wildfly-common:1.5.0.Final-format-001
+|    |    +--- org.jboss.classfilewriter:jboss-classfilewriter:1.2.4.Final
+|    |    +--- io.quarkus.gizmo:gizmo:1.0.0.Alpha2
+|    |    |    +--- org.ow2.asm:asm:6.2.1
+|    |    |    \--- org.jboss:jandex:2.1.0.Final -> 2.1.1.Final
+|    |    +--- org.jboss:jandex:2.1.1.Final
+|    |    +--- org.ow2.asm:asm:6.2.1
+|    |    +--- io.quarkus:quarkus-core-runtime:0.11.0
+|    |    |    +--- javax.inject:javax.inject:1
+|    |    |    +--- javax.annotation:javax.annotation-api:1.3.2
+|    |    |    +--- io.smallrye:smallrye-config:1.3.5
+|    |    |    |    +--- org.eclipse.microprofile.config:microprofile-config-api:1.3
+|    |    |    |    |    \--- org.osgi:org.osgi.annotation.versioning:1.0.0
+|    |    |    |    +--- javax.enterprise:cdi-api:1.2 -> 2.0
+|    |    |    |    |    +--- javax.el:javax.el-api:3.0.0
+|    |    |    |    |    +--- javax.interceptor:javax.interceptor-api:1.2
+|    |    |    |    |    \--- javax.inject:javax.inject:1
+|    |    |    |    +--- javax.annotation:javax.annotation-api:1.2 -> 1.3.2
+|    |    |    |    \--- org.jboss.logging:jboss-logging:3.3.2.Final
+|    |    |    +--- org.jboss.logging:jboss-logging:3.3.2.Final
+|    |    |    +--- org.jboss.logmanager:jboss-logmanager-embedded:1.0.0
+|    |    |    |    +--- com.oracle.substratevm:svm:1.0.0-rc12
+|    |    |    |    \--- org.wildfly.common:wildfly-common:1.5.0.Final-format-001
+|    |    |    +--- org.jboss.logging:jboss-logging-annotations:2.1.0.Final
+|    |    |    +--- org.jboss.threads:jboss-threads:3.0.0.Alpha4
+|    |    |    |    +--- org.jboss.logging:jboss-logging:3.3.1.Final -> 3.3.2.Final
+|    |    |    |    \--- org.wildfly.common:wildfly-common:1.4.0.Final -> 1.5.0.Final-format-001
+|    |    |    +--- org.slf4j:slf4j-api:1.7.25
+|    |    |    +--- org.jboss.slf4j:slf4j-jboss-logging:1.1.0.Final
+|    |    |    |    +--- org.slf4j:slf4j-api:1.7.21 -> 1.7.25
+|    |    |    |    \--- org.jboss.logging:jboss-logging:3.3.0.Final -> 3.3.2.Final
+|    |    |    +--- org.graalvm.sdk:graal-sdk:1.0.0-rc12
+|    |    |    +--- org.wildfly.common:wildfly-common:1.5.0.Final-format-001
+|    |    |    +--- org.wildfly.security:wildfly-elytron-ssl:2.0.0.Alpha1
+|    |    |    |    +--- org.wildfly.security:wildfly-elytron-auth-server:2.0.0.Alpha1
+|    |    |    |    |    +--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-auth:2.0.0.Alpha1
+|    |    |    |    |    |    +--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    |    |    |    |    \--- org.wildfly.security:wildfly-elytron-util:2.0.0.Alpha1
+|    |    |    |    |    |         +--- org.wildfly.security:wildfly-elytron-asn1:2.0.0.Alpha1
+|    |    |    |    |    |         |    +--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    |    |    |    |         |    \--- org.jboss.logging:jboss-logging:3.3.1.Final -> 3.3.2.Final
+|    |    |    |    |    |         +--- org.wildfly.security:wildfly-elytron-base:2.0.0.Alpha1
+|    |    |    |    |    |         |    +--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    |    |    |    |         |    \--- org.jboss.logging:jboss-logging:3.3.1.Final -> 3.3.2.Final
+|    |    |    |    |    |         \--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-base:2.0.0.Alpha1 (*)
+|    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-credential:2.0.0.Alpha1
+|    |    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-asn1:2.0.0.Alpha1 (*)
+|    |    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-util:2.0.0.Alpha1 (*)
+|    |    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-x500:2.0.0.Alpha1
+|    |    |    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-asn1:2.0.0.Alpha1 (*)
+|    |    |    |    |    |    |    \--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    |    |    |    |    \--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-permission:2.0.0.Alpha1
+|    |    |    |    |    |    +--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-util:2.0.0.Alpha1 (*)
+|    |    |    |    |    |    \--- org.jboss.logging:jboss-logging:3.3.1.Final -> 3.3.2.Final
+|    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-util:2.0.0.Alpha1 (*)
+|    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-x500:2.0.0.Alpha1 (*)
+|    |    |    |    |    \--- org.jboss.logging:jboss-logging:3.3.1.Final -> 3.3.2.Final
+|    |    |    |    +--- org.wildfly.security:wildfly-elytron-base:2.0.0.Alpha1 (*)
+|    |    |    |    +--- org.wildfly.security:wildfly-elytron-credential:2.0.0.Alpha1 (*)
+|    |    |    |    +--- org.wildfly.security:wildfly-elytron-auth:2.0.0.Alpha1 (*)
+|    |    |    |    +--- org.wildfly.security:wildfly-elytron-util:2.0.0.Alpha1 (*)
+|    |    |    |    +--- org.wildfly.security:wildfly-elytron-x500:2.0.0.Alpha1 (*)
+|    |    |    |    +--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    |    |    \--- org.jboss.logging:jboss-logging:3.3.1.Final -> 3.3.2.Final
+|    |    |    \--- org.wildfly.security:wildfly-elytron-x500-cert:2.0.0.Alpha1
+|    |    |         +--- org.wildfly.security:wildfly-elytron-asn1:2.0.0.Alpha1 (*)
+|    |    |         +--- org.wildfly.security:wildfly-elytron-x500:2.0.0.Alpha1 (*)
+|    |    |         +--- org.wildfly.security:wildfly-elytron-x500-cert-util:2.0.0.Alpha1
+|    |    |         |    \--- org.wildfly.security:wildfly-elytron-asn1:2.0.0.Alpha1 (*)
+|    |    |         \--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    \--- io.quarkus:quarkus-builder:0.11.0
+|    |         +--- org.wildfly.common:wildfly-common:1.5.0.Final-format-001
+|    |         +--- org.jboss.logging:jboss-logging:3.3.2.Final
+|    |         \--- org.jboss.threads:jboss-threads:3.0.0.Alpha4 (*)
+|    +--- io.quarkus:quarkus-arc-runtime:0.11.0
+|    |    +--- io.quarkus.arc:arc-runtime:0.11.0
+|    |    |    +--- javax.enterprise:cdi-api:2.0.SP1 -> 2.0 (*)
+|    |    |    +--- javax.annotation:javax.annotation-api:1.3.2
+|    |    |    \--- org.jboss.logging:jboss-logging:3.3.2.Final
+|    |    \--- io.quarkus:quarkus-core-runtime:0.11.0 (*)
+|    \--- io.quarkus.arc:arc-processor:0.11.0
+|         +--- io.quarkus.arc:arc-runtime:0.11.0 (*)
+|         +--- javax.enterprise:cdi-api:2.0.SP1 -> 2.0 (*)
+|         +--- org.jboss.logging:jboss-logging:3.3.2.Final
+|         +--- org.jboss:jandex:2.1.0.Final -> 2.1.1.Final
+|         +--- io.quarkus.gizmo:gizmo:1.0.0.Alpha2 (*)
+|         \--- javax.annotation:javax.annotation-api:1.3.2
++--- io.quarkus:quarkus-resteasy-jsonb -> 0.11.0
+|    +--- io.quarkus:quarkus-resteasy:0.11.0
+|    |    +--- io.quarkus:quarkus-core:0.11.0 (*)
+|    |    +--- io.quarkus:quarkus-resteasy-common:0.11.0
+|    |    |    \--- io.quarkus:quarkus-resteasy-common-runtime:0.11.0
+|    |    |         +--- io.quarkus:quarkus-core-runtime:0.11.0 (*)
+|    |    |         \--- org.jboss.resteasy:resteasy-core:4.0.0.Beta8
+|    |    |              +--- org.jboss.spec.javax.ws.rs:jboss-jaxrs-api_2.1_spec:1.0.2.Final
+|    |    |              +--- org.jboss.spec.javax.xml.bind:jboss-jaxb-api_2.3_spec:1.0.1.Final
+|    |    |              +--- org.jboss.resteasy:resteasy-core-spi:4.0.0.Beta8
+|    |    |              |    +--- org.jboss.spec.javax.ws.rs:jboss-jaxrs-api_2.1_spec:1.0.2.Final
+|    |    |              |    +--- org.jboss.spec.javax.xml.bind:jboss-jaxb-api_2.3_spec:1.0.1.Final
+|    |    |              |    +--- org.reactivestreams:reactive-streams:1.0.2
+|    |    |              |    +--- javax.validation:validation-api:2.0.1.Final
+|    |    |              |    +--- org.apache.httpcomponents:httpclient:4.5.4 -> 4.5.6
+|    |    |              |    |    +--- org.apache.httpcomponents:httpcore:4.4.10
+|    |    |              |    |    +--- commons-logging:commons-logging:1.2
+|    |    |              |    |    \--- commons-codec:commons-codec:1.10
+|    |    |              |    +--- commons-io:commons-io:2.5
+|    |    |              |    +--- net.jcip:jcip-annotations:1.0
+|    |    |              |    \--- org.jboss.logging:jboss-logging:3.3.2.Final
+|    |    |              +--- org.reactivestreams:reactive-streams:1.0.2
+|    |    |              +--- javax.validation:validation-api:2.0.1.Final
+|    |    |              +--- org.apache.httpcomponents:httpclient:4.5.4 -> 4.5.6 (*)
+|    |    |              +--- commons-io:commons-io:2.5
+|    |    |              +--- net.jcip:jcip-annotations:1.0
+|    |    |              \--- org.jboss.logging:jboss-logging:3.3.2.Final
+|    |    +--- io.quarkus:quarkus-undertow:0.11.0
+|    |    |    +--- io.undertow:undertow-servlet:2.0.17.Final
+|    |    |    |    +--- io.undertow:undertow-core:2.0.17.Final
+|    |    |    |    |    +--- org.jboss.logging:jboss-logging:3.3.2.Final
+|    |    |    |    |    +--- org.jboss.xnio:xnio-api:3.3.8.Final -> 3.6.5.Final
+|    |    |    |    |    |    +--- org.wildfly.common:wildfly-common:1.3.0.Final -> 1.5.0.Final-format-001
+|    |    |    |    |    |    \--- org.jboss.threads:jboss-threads:2.3.0.Beta2 -> 3.0.0.Alpha4 (*)
+|    |    |    |    |    \--- org.jboss.xnio:xnio-nio:3.3.8.Final -> 3.6.5.Final
+|    |    |    |    |         \--- org.jboss.xnio:xnio-api:3.6.5.Final (*)
+|    |    |    |    \--- org.jboss.spec.javax.servlet:jboss-servlet-api_4.0_spec:1.0.0.Final
+|    |    |    +--- io.quarkus:quarkus-core:0.11.0 (*)
+|    |    |    +--- io.quarkus:quarkus-arc:0.11.0 (*)
+|    |    |    +--- io.quarkus:quarkus-undertow-runtime:0.11.0
+|    |    |    |    +--- io.quarkus:quarkus-arc-runtime:0.11.0 (*)
+|    |    |    |    +--- io.undertow:undertow-servlet:2.0.17.Final (*)
+|    |    |    |    +--- org.jboss.xnio:xnio-nio:3.6.5.Final (*)
+|    |    |    |    +--- org.jboss.xnio:xnio-api:3.6.5.Final (*)
+|    |    |    |    \--- io.quarkus:quarkus-core-runtime:0.11.0 (*)
+|    |    |    \--- org.jboss.metadata:jboss-metadata-web:11.0.0.Final
+|    |    |         \--- org.jboss.metadata:jboss-metadata-common:11.0.0.Final
+|    |    +--- io.quarkus:quarkus-arc:0.11.0 (*)
+|    |    +--- io.quarkus:quarkus-jaxb:0.11.0
+|    |    |    +--- io.quarkus:quarkus-core:0.11.0 (*)
+|    |    |    \--- io.quarkus:quarkus-jaxb-runtime:0.11.0
+|    |    |         +--- io.quarkus:quarkus-core-runtime:0.11.0 (*)
+|    |    |         \--- javax.xml.bind:jaxb-api:2.3.1
+|    |    \--- io.quarkus:quarkus-resteasy-runtime:0.11.0
+|    |         +--- io.quarkus:quarkus-core-runtime:0.11.0 (*)
+|    |         +--- io.quarkus:quarkus-undertow-runtime:0.11.0 (*)
+|    |         +--- io.quarkus:quarkus-arc-runtime:0.11.0 (*)
+|    |         +--- io.quarkus:quarkus-resteasy-common-runtime:0.11.0 (*)
+|    |         +--- javax.validation:validation-api:2.0.1.Final
+|    |         +--- com.sun.activation:jakarta.activation:1.2.1
+|    |         \--- io.quarkus:quarkus-jaxb-runtime:0.11.0 (*)
+|    \--- io.quarkus:quarkus-resteasy-jsonb-runtime:0.11.0
+|         +--- io.quarkus:quarkus-resteasy-runtime:0.11.0 (*)
+|         +--- org.jboss.resteasy:resteasy-json-binding-provider:4.0.0.Beta8
+|         |    +--- org.glassfish:javax.json:1.1.2 -> 1.1.4
+|         |    +--- javax.json.bind:javax.json.bind-api:1.0
+|         |    \--- org.eclipse:yasson:1.0.2
+|         |         +--- javax.json.bind:javax.json.bind-api:1.0
+|         |         \--- javax.enterprise:cdi-api:2.0 (*)
+|         \--- org.jboss.resteasy:resteasy-json-p-provider:4.0.0.Beta8
+|              \--- org.glassfish:javax.json:1.1.2 -> 1.1.4
+\--- io.quarkus:quarkus-kotlin -> 0.11.0
+     +--- io.quarkus:quarkus-development-mode:0.11.0
+     |    +--- io.quarkus:quarkus-core:0.11.0 (*)
+     |    \--- org.jboss.logmanager:jboss-logmanager-embedded:1.0.0 (*)
+     \--- org.jetbrains.kotlin:kotlin-compiler-embeddable:1.3.21
+          +--- org.jetbrains.kotlin:kotlin-stdlib:1.3.21 (*)
+          +--- org.jetbrains.kotlin:kotlin-script-runtime:1.3.21
+          +--- org.jetbrains.kotlin:kotlin-reflect:1.3.21
+          |    \--- org.jetbrains.kotlin:kotlin-stdlib:1.3.21 (*)
+          \--- org.jetbrains.intellij.deps:trove4j:1.0.20181211
+
+implementation - Implementation only dependencies for compilation 'main' (target  (jvm)). (n)
++--- io.quarkus:quarkus-bom:0.11.0 (n)
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.21 (n)
++--- io.quarkus:quarkus-arc (n)
++--- io.quarkus:quarkus-resteasy-jsonb (n)
+\--- io.quarkus:quarkus-kotlin (n)
+
+implementationDependenciesMetadata
++--- io.quarkus:quarkus-bom:0.11.0
+|    +--- io.quarkus:quarkus-arc:0.11.0 (c)
+|    +--- io.quarkus:quarkus-resteasy-jsonb:0.11.0 (c)
+|    +--- io.quarkus:quarkus-kotlin:0.11.0 (c)
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.21 (c)
+|    +--- io.quarkus:quarkus-core:0.11.0 (c)
+|    +--- io.quarkus.arc:arc-processor:0.11.0 (c)
+|    +--- io.quarkus:quarkus-resteasy:0.11.0 (c)
+|    +--- org.jetbrains.kotlin:kotlin-compiler-embeddable:1.3.21 (c)
+|    +--- io.quarkus.gizmo:gizmo:1.0.0.Alpha2 (c)
+|    +--- commons-beanutils:commons-beanutils-core:1.8.3 (c)
+|    +--- org.jboss:jandex:2.1.1.Final (c)
+|    +--- org.jboss.classfilewriter:jboss-classfilewriter:1.2.4.Final (c)
+|    +--- org.jboss.invocation:jboss-invocation:1.5.1.Final (c)
+|    +--- org.wildfly.common:wildfly-common:1.5.0.Final-format-001 (c)
+|    +--- org.ow2.asm:asm:6.2.1 (c)
+|    +--- io.quarkus.arc:arc-runtime:0.11.0 (c)
+|    +--- org.jboss.logging:jboss-logging:3.3.2.Final (c)
+|    +--- javax.enterprise:cdi-api:2.0.SP1 -> 2.0 (c)
+|    +--- javax.annotation:javax.annotation-api:1.3.2 (c)
+|    +--- io.quarkus:quarkus-jaxb:0.11.0 (c)
+|    +--- io.quarkus:quarkus-undertow:0.11.0 (c)
+|    +--- org.jboss.resteasy:resteasy-json-p-provider:4.0.0.Beta8 (c)
+|    +--- org.jboss.resteasy:resteasy-json-binding-provider:4.0.0.Beta8 (c)
+|    +--- org.jboss.logmanager:jboss-logmanager-embedded:1.0.0 (c)
+|    +--- commons-logging:commons-logging:1.2 (c)
+|    +--- org.slf4j:slf4j-api:1.7.25 (c)
+|    +--- org.jboss.logging:jboss-logging-annotations:2.1.0.Final (c)
+|    +--- io.smallrye:smallrye-config:1.3.5 (c)
+|    +--- javax.inject:javax.inject:1 (c)
+|    +--- org.graalvm.sdk:graal-sdk:1.0.0-rc12 (c)
+|    +--- org.jboss.threads:jboss-threads:3.0.0.Alpha4 (c)
+|    +--- org.wildfly.security:wildfly-elytron-ssl:2.0.0.Alpha1 (c)
+|    +--- org.wildfly.security:wildfly-elytron-x500-cert:2.0.0.Alpha1 (c)
+|    +--- org.jboss.slf4j:slf4j-jboss-logging:1.1.0.Final (c)
+|    +--- io.undertow:undertow-servlet:2.0.17.Final (c)
+|    +--- org.jboss.metadata:jboss-metadata-web:11.0.0.Final (c)
+|    +--- javax.validation:validation-api:2.0.1.Final (c)
+|    +--- com.sun.activation:jakarta.activation:1.2.1 (c)
+|    +--- javax.json.bind:javax.json.bind-api:1.0 (c)
+|    +--- org.eclipse:yasson:1.0.2 (c)
+|    +--- org.glassfish:javax.json:1.1.4 (c)
+|    +--- com.oracle.substratevm:svm:1.0.0-rc12 (c)
+|    +--- org.eclipse.microprofile.config:microprofile-config-api:1.3 (c)
+|    +--- org.wildfly.security:wildfly-elytron-auth-server:2.0.0.Alpha1 (c)
+|    +--- org.jboss.resteasy:resteasy-core:4.0.0.Beta8 (c)
+|    +--- io.undertow:undertow-core:2.0.17.Final (c)
+|    +--- org.jboss.spec.javax.servlet:jboss-servlet-api_4.0_spec:1.0.0.Final (c)
+|    +--- org.jboss.xnio:xnio-api:3.6.5.Final (c)
+|    +--- org.jboss.xnio:xnio-nio:3.6.5.Final (c)
+|    +--- javax.xml.bind:jaxb-api:2.3.1 (c)
+|    +--- org.jboss.spec.javax.xml.bind:jboss-jaxb-api_2.3_spec:1.0.1.Final (c)
+|    +--- org.jboss.spec.javax.ws.rs:jboss-jaxrs-api_2.1_spec:1.0.2.Final (c)
+|    +--- commons-io:commons-io:2.5 (c)
+|    +--- org.apache.httpcomponents:httpclient:4.5.6 (c)
+|    +--- net.jcip:jcip-annotations:1.0 (c)
+|    +--- org.reactivestreams:reactive-streams:1.0.2 (c)
+|    +--- org.jboss.resteasy:resteasy-core-spi:4.0.0.Beta8 (c)
+|    \--- org.apache.httpcomponents:httpcore:4.4.10 (c)
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.21
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.3.21
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.3.21
+|    |    \--- org.jetbrains:annotations:13.0
+|    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.21
+|         \--- org.jetbrains.kotlin:kotlin-stdlib:1.3.21 (*)
++--- io.quarkus:quarkus-arc -> 0.11.0
+|    +--- io.quarkus:quarkus-core:0.11.0
+|    |    +--- commons-beanutils:commons-beanutils-core:1.8.3
+|    |    |    \--- commons-logging:commons-logging:1.1.1 -> 1.2
+|    |    +--- org.jboss.invocation:jboss-invocation:1.5.1.Final
+|    |    +--- org.wildfly.common:wildfly-common:1.5.0.Final-format-001
+|    |    +--- org.jboss.classfilewriter:jboss-classfilewriter:1.2.4.Final
+|    |    +--- io.quarkus.gizmo:gizmo:1.0.0.Alpha2
+|    |    |    +--- org.ow2.asm:asm:6.2.1
+|    |    |    \--- org.jboss:jandex:2.1.0.Final -> 2.1.1.Final
+|    |    +--- org.jboss:jandex:2.1.1.Final
+|    |    +--- org.ow2.asm:asm:6.2.1
+|    |    +--- io.quarkus:quarkus-core-runtime:0.11.0
+|    |    |    +--- javax.inject:javax.inject:1
+|    |    |    +--- javax.annotation:javax.annotation-api:1.3.2
+|    |    |    +--- io.smallrye:smallrye-config:1.3.5
+|    |    |    |    +--- org.eclipse.microprofile.config:microprofile-config-api:1.3
+|    |    |    |    |    \--- org.osgi:org.osgi.annotation.versioning:1.0.0
+|    |    |    |    +--- javax.enterprise:cdi-api:1.2 -> 2.0
+|    |    |    |    |    +--- javax.el:javax.el-api:3.0.0
+|    |    |    |    |    +--- javax.interceptor:javax.interceptor-api:1.2
+|    |    |    |    |    \--- javax.inject:javax.inject:1
+|    |    |    |    +--- javax.annotation:javax.annotation-api:1.2 -> 1.3.2
+|    |    |    |    \--- org.jboss.logging:jboss-logging:3.3.2.Final
+|    |    |    +--- org.jboss.logging:jboss-logging:3.3.2.Final
+|    |    |    +--- org.jboss.logmanager:jboss-logmanager-embedded:1.0.0
+|    |    |    |    +--- com.oracle.substratevm:svm:1.0.0-rc12
+|    |    |    |    \--- org.wildfly.common:wildfly-common:1.5.0.Final-format-001
+|    |    |    +--- org.jboss.logging:jboss-logging-annotations:2.1.0.Final
+|    |    |    +--- org.jboss.threads:jboss-threads:3.0.0.Alpha4
+|    |    |    |    +--- org.jboss.logging:jboss-logging:3.3.1.Final -> 3.3.2.Final
+|    |    |    |    \--- org.wildfly.common:wildfly-common:1.4.0.Final -> 1.5.0.Final-format-001
+|    |    |    +--- org.slf4j:slf4j-api:1.7.25
+|    |    |    +--- org.jboss.slf4j:slf4j-jboss-logging:1.1.0.Final
+|    |    |    |    +--- org.slf4j:slf4j-api:1.7.21 -> 1.7.25
+|    |    |    |    \--- org.jboss.logging:jboss-logging:3.3.0.Final -> 3.3.2.Final
+|    |    |    +--- org.graalvm.sdk:graal-sdk:1.0.0-rc12
+|    |    |    +--- org.wildfly.common:wildfly-common:1.5.0.Final-format-001
+|    |    |    +--- org.wildfly.security:wildfly-elytron-ssl:2.0.0.Alpha1
+|    |    |    |    +--- org.wildfly.security:wildfly-elytron-auth-server:2.0.0.Alpha1
+|    |    |    |    |    +--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-auth:2.0.0.Alpha1
+|    |    |    |    |    |    +--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    |    |    |    |    \--- org.wildfly.security:wildfly-elytron-util:2.0.0.Alpha1
+|    |    |    |    |    |         +--- org.wildfly.security:wildfly-elytron-asn1:2.0.0.Alpha1
+|    |    |    |    |    |         |    +--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    |    |    |    |         |    \--- org.jboss.logging:jboss-logging:3.3.1.Final -> 3.3.2.Final
+|    |    |    |    |    |         +--- org.wildfly.security:wildfly-elytron-base:2.0.0.Alpha1
+|    |    |    |    |    |         |    +--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    |    |    |    |         |    \--- org.jboss.logging:jboss-logging:3.3.1.Final -> 3.3.2.Final
+|    |    |    |    |    |         \--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-base:2.0.0.Alpha1 (*)
+|    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-credential:2.0.0.Alpha1
+|    |    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-asn1:2.0.0.Alpha1 (*)
+|    |    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-util:2.0.0.Alpha1 (*)
+|    |    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-x500:2.0.0.Alpha1
+|    |    |    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-asn1:2.0.0.Alpha1 (*)
+|    |    |    |    |    |    |    \--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    |    |    |    |    \--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-permission:2.0.0.Alpha1
+|    |    |    |    |    |    +--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-util:2.0.0.Alpha1 (*)
+|    |    |    |    |    |    \--- org.jboss.logging:jboss-logging:3.3.1.Final -> 3.3.2.Final
+|    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-util:2.0.0.Alpha1 (*)
+|    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-x500:2.0.0.Alpha1 (*)
+|    |    |    |    |    \--- org.jboss.logging:jboss-logging:3.3.1.Final -> 3.3.2.Final
+|    |    |    |    +--- org.wildfly.security:wildfly-elytron-base:2.0.0.Alpha1 (*)
+|    |    |    |    +--- org.wildfly.security:wildfly-elytron-credential:2.0.0.Alpha1 (*)
+|    |    |    |    +--- org.wildfly.security:wildfly-elytron-auth:2.0.0.Alpha1 (*)
+|    |    |    |    +--- org.wildfly.security:wildfly-elytron-util:2.0.0.Alpha1 (*)
+|    |    |    |    +--- org.wildfly.security:wildfly-elytron-x500:2.0.0.Alpha1 (*)
+|    |    |    |    +--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    |    |    \--- org.jboss.logging:jboss-logging:3.3.1.Final -> 3.3.2.Final
+|    |    |    \--- org.wildfly.security:wildfly-elytron-x500-cert:2.0.0.Alpha1
+|    |    |         +--- org.wildfly.security:wildfly-elytron-asn1:2.0.0.Alpha1 (*)
+|    |    |         +--- org.wildfly.security:wildfly-elytron-x500:2.0.0.Alpha1 (*)
+|    |    |         +--- org.wildfly.security:wildfly-elytron-x500-cert-util:2.0.0.Alpha1
+|    |    |         |    \--- org.wildfly.security:wildfly-elytron-asn1:2.0.0.Alpha1 (*)
+|    |    |         \--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    \--- io.quarkus:quarkus-builder:0.11.0
+|    |         +--- org.wildfly.common:wildfly-common:1.5.0.Final-format-001
+|    |         +--- org.jboss.logging:jboss-logging:3.3.2.Final
+|    |         \--- org.jboss.threads:jboss-threads:3.0.0.Alpha4 (*)
+|    +--- io.quarkus:quarkus-arc-runtime:0.11.0
+|    |    +--- io.quarkus.arc:arc-runtime:0.11.0
+|    |    |    +--- javax.enterprise:cdi-api:2.0.SP1 -> 2.0 (*)
+|    |    |    +--- javax.annotation:javax.annotation-api:1.3.2
+|    |    |    \--- org.jboss.logging:jboss-logging:3.3.2.Final
+|    |    \--- io.quarkus:quarkus-core-runtime:0.11.0 (*)
+|    \--- io.quarkus.arc:arc-processor:0.11.0
+|         +--- io.quarkus.arc:arc-runtime:0.11.0 (*)
+|         +--- javax.enterprise:cdi-api:2.0.SP1 -> 2.0 (*)
+|         +--- org.jboss.logging:jboss-logging:3.3.2.Final
+|         +--- org.jboss:jandex:2.1.0.Final -> 2.1.1.Final
+|         +--- io.quarkus.gizmo:gizmo:1.0.0.Alpha2 (*)
+|         \--- javax.annotation:javax.annotation-api:1.3.2
++--- io.quarkus:quarkus-resteasy-jsonb -> 0.11.0
+|    +--- io.quarkus:quarkus-resteasy:0.11.0
+|    |    +--- io.quarkus:quarkus-core:0.11.0 (*)
+|    |    +--- io.quarkus:quarkus-resteasy-common:0.11.0
+|    |    |    \--- io.quarkus:quarkus-resteasy-common-runtime:0.11.0
+|    |    |         +--- io.quarkus:quarkus-core-runtime:0.11.0 (*)
+|    |    |         \--- org.jboss.resteasy:resteasy-core:4.0.0.Beta8
+|    |    |              +--- org.jboss.spec.javax.ws.rs:jboss-jaxrs-api_2.1_spec:1.0.2.Final
+|    |    |              +--- org.jboss.spec.javax.xml.bind:jboss-jaxb-api_2.3_spec:1.0.1.Final
+|    |    |              +--- org.jboss.resteasy:resteasy-core-spi:4.0.0.Beta8
+|    |    |              |    +--- org.jboss.spec.javax.ws.rs:jboss-jaxrs-api_2.1_spec:1.0.2.Final
+|    |    |              |    +--- org.jboss.spec.javax.xml.bind:jboss-jaxb-api_2.3_spec:1.0.1.Final
+|    |    |              |    +--- org.reactivestreams:reactive-streams:1.0.2
+|    |    |              |    +--- javax.validation:validation-api:2.0.1.Final
+|    |    |              |    +--- org.apache.httpcomponents:httpclient:4.5.4 -> 4.5.6
+|    |    |              |    |    +--- org.apache.httpcomponents:httpcore:4.4.10
+|    |    |              |    |    +--- commons-logging:commons-logging:1.2
+|    |    |              |    |    \--- commons-codec:commons-codec:1.10
+|    |    |              |    +--- commons-io:commons-io:2.5
+|    |    |              |    +--- net.jcip:jcip-annotations:1.0
+|    |    |              |    \--- org.jboss.logging:jboss-logging:3.3.2.Final
+|    |    |              +--- org.reactivestreams:reactive-streams:1.0.2
+|    |    |              +--- javax.validation:validation-api:2.0.1.Final
+|    |    |              +--- org.apache.httpcomponents:httpclient:4.5.4 -> 4.5.6 (*)
+|    |    |              +--- commons-io:commons-io:2.5
+|    |    |              +--- net.jcip:jcip-annotations:1.0
+|    |    |              \--- org.jboss.logging:jboss-logging:3.3.2.Final
+|    |    +--- io.quarkus:quarkus-undertow:0.11.0
+|    |    |    +--- io.undertow:undertow-servlet:2.0.17.Final
+|    |    |    |    +--- io.undertow:undertow-core:2.0.17.Final
+|    |    |    |    |    +--- org.jboss.logging:jboss-logging:3.3.2.Final
+|    |    |    |    |    \--- org.jboss.xnio:xnio-api:3.3.8.Final -> 3.6.5.Final
+|    |    |    |    |         +--- org.wildfly.common:wildfly-common:1.3.0.Final -> 1.5.0.Final-format-001
+|    |    |    |    |         \--- org.jboss.threads:jboss-threads:2.3.0.Beta2 -> 3.0.0.Alpha4 (*)
+|    |    |    |    \--- org.jboss.spec.javax.servlet:jboss-servlet-api_4.0_spec:1.0.0.Final
+|    |    |    +--- io.quarkus:quarkus-core:0.11.0 (*)
+|    |    |    +--- io.quarkus:quarkus-arc:0.11.0 (*)
+|    |    |    +--- io.quarkus:quarkus-undertow-runtime:0.11.0
+|    |    |    |    +--- io.quarkus:quarkus-arc-runtime:0.11.0 (*)
+|    |    |    |    +--- io.undertow:undertow-servlet:2.0.17.Final (*)
+|    |    |    |    +--- org.jboss.xnio:xnio-nio:3.6.5.Final
+|    |    |    |    |    \--- org.jboss.xnio:xnio-api:3.6.5.Final (*)
+|    |    |    |    +--- org.jboss.xnio:xnio-api:3.6.5.Final (*)
+|    |    |    |    \--- io.quarkus:quarkus-core-runtime:0.11.0 (*)
+|    |    |    \--- org.jboss.metadata:jboss-metadata-web:11.0.0.Final
+|    |    |         \--- org.jboss.metadata:jboss-metadata-common:11.0.0.Final
+|    |    +--- io.quarkus:quarkus-arc:0.11.0 (*)
+|    |    +--- io.quarkus:quarkus-jaxb:0.11.0
+|    |    |    +--- io.quarkus:quarkus-core:0.11.0 (*)
+|    |    |    \--- io.quarkus:quarkus-jaxb-runtime:0.11.0
+|    |    |         +--- io.quarkus:quarkus-core-runtime:0.11.0 (*)
+|    |    |         \--- javax.xml.bind:jaxb-api:2.3.1
+|    |    \--- io.quarkus:quarkus-resteasy-runtime:0.11.0
+|    |         +--- io.quarkus:quarkus-core-runtime:0.11.0 (*)
+|    |         +--- io.quarkus:quarkus-undertow-runtime:0.11.0 (*)
+|    |         +--- io.quarkus:quarkus-arc-runtime:0.11.0 (*)
+|    |         +--- io.quarkus:quarkus-resteasy-common-runtime:0.11.0 (*)
+|    |         +--- javax.validation:validation-api:2.0.1.Final
+|    |         +--- com.sun.activation:jakarta.activation:1.2.1
+|    |         \--- io.quarkus:quarkus-jaxb-runtime:0.11.0 (*)
+|    \--- io.quarkus:quarkus-resteasy-jsonb-runtime:0.11.0
+|         +--- io.quarkus:quarkus-resteasy-runtime:0.11.0 (*)
+|         +--- org.jboss.resteasy:resteasy-json-binding-provider:4.0.0.Beta8
+|         |    +--- org.glassfish:javax.json:1.1.2 -> 1.1.4
+|         |    +--- javax.json.bind:javax.json.bind-api:1.0
+|         |    \--- org.eclipse:yasson:1.0.2
+|         |         +--- javax.json.bind:javax.json.bind-api:1.0
+|         |         \--- javax.enterprise:cdi-api:2.0 (*)
+|         \--- org.jboss.resteasy:resteasy-json-p-provider:4.0.0.Beta8
+|              \--- org.glassfish:javax.json:1.1.2 -> 1.1.4
+\--- io.quarkus:quarkus-kotlin -> 0.11.0
+     +--- io.quarkus:quarkus-development-mode:0.11.0
+     |    +--- io.quarkus:quarkus-core:0.11.0 (*)
+     |    \--- org.jboss.logmanager:jboss-logmanager-embedded:1.0.0 (*)
+     \--- org.jetbrains.kotlin:kotlin-compiler-embeddable:1.3.21
+
+kotlinCompilerClasspath
+\--- org.jetbrains.kotlin:kotlin-compiler-embeddable:1.3.21
+     +--- org.jetbrains.kotlin:kotlin-stdlib:1.3.21
+     |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.3.21
+     |    \--- org.jetbrains:annotations:13.0
+     +--- org.jetbrains.kotlin:kotlin-script-runtime:1.3.21
+     +--- org.jetbrains.kotlin:kotlin-reflect:1.3.21
+     |    \--- org.jetbrains.kotlin:kotlin-stdlib:1.3.21 (*)
+     \--- org.jetbrains.intellij.deps:trove4j:1.0.20181211
+
+kotlinCompilerPluginClasspath
+\--- org.jetbrains.kotlin:kotlin-scripting-compiler-embeddable:1.3.21
+
+kotlinNativeCompilerPluginClasspath
+No dependencies
+
+kotlinScriptDef - Script filename extensions discovery classpath configuration
+No dependencies
+
+kotlinScriptDefExtensions
+No dependencies
+
+runtime - Runtime dependencies for compilation 'main' (target  (jvm)) (deprecated, use 'runtimeOnly ' instead).
+No dependencies
+
+runtimeClasspath - Runtime classpath of compilation 'main' (target  (jvm)).
++--- io.quarkus:quarkus-bom:0.11.0
+|    +--- io.quarkus:quarkus-arc:0.11.0 (c)
+|    +--- io.quarkus:quarkus-resteasy-jsonb:0.11.0 (c)
+|    +--- io.quarkus:quarkus-kotlin:0.11.0 (c)
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.21 (c)
+|    +--- io.quarkus:quarkus-core:0.11.0 (c)
+|    +--- io.quarkus.arc:arc-processor:0.11.0 (c)
+|    +--- io.quarkus:quarkus-resteasy:0.11.0 (c)
+|    +--- org.jetbrains.kotlin:kotlin-compiler-embeddable:1.3.21 (c)
+|    +--- io.quarkus.gizmo:gizmo:1.0.0.Alpha2 (c)
+|    +--- commons-beanutils:commons-beanutils-core:1.8.3 (c)
+|    +--- org.jboss:jandex:2.1.1.Final (c)
+|    +--- org.jboss.classfilewriter:jboss-classfilewriter:1.2.4.Final (c)
+|    +--- org.jboss.invocation:jboss-invocation:1.5.1.Final (c)
+|    +--- org.wildfly.common:wildfly-common:1.5.0.Final-format-001 (c)
+|    +--- org.ow2.asm:asm:6.2.1 (c)
+|    +--- io.quarkus.arc:arc-runtime:0.11.0 (c)
+|    +--- org.jboss.logging:jboss-logging:3.3.2.Final (c)
+|    +--- javax.enterprise:cdi-api:2.0.SP1 -> 2.0 (c)
+|    +--- javax.annotation:javax.annotation-api:1.3.2 (c)
+|    +--- io.quarkus:quarkus-jaxb:0.11.0 (c)
+|    +--- io.quarkus:quarkus-undertow:0.11.0 (c)
+|    +--- org.jboss.resteasy:resteasy-json-p-provider:4.0.0.Beta8 (c)
+|    +--- org.jboss.resteasy:resteasy-json-binding-provider:4.0.0.Beta8 (c)
+|    +--- org.jboss.logmanager:jboss-logmanager-embedded:1.0.0 (c)
+|    +--- commons-logging:commons-logging:1.2 (c)
+|    +--- org.slf4j:slf4j-api:1.7.25 (c)
+|    +--- org.jboss.logging:jboss-logging-annotations:2.1.0.Final (c)
+|    +--- io.smallrye:smallrye-config:1.3.5 (c)
+|    +--- javax.inject:javax.inject:1 (c)
+|    +--- org.graalvm.sdk:graal-sdk:1.0.0-rc12 (c)
+|    +--- org.jboss.threads:jboss-threads:3.0.0.Alpha4 (c)
+|    +--- org.wildfly.security:wildfly-elytron-ssl:2.0.0.Alpha1 (c)
+|    +--- org.wildfly.security:wildfly-elytron-x500-cert:2.0.0.Alpha1 (c)
+|    +--- org.jboss.slf4j:slf4j-jboss-logging:1.1.0.Final (c)
+|    +--- io.undertow:undertow-servlet:2.0.17.Final (c)
+|    +--- org.jboss.metadata:jboss-metadata-web:11.0.0.Final (c)
+|    +--- javax.validation:validation-api:2.0.1.Final (c)
+|    +--- com.sun.activation:jakarta.activation:1.2.1 (c)
+|    +--- javax.json.bind:javax.json.bind-api:1.0 (c)
+|    +--- org.eclipse:yasson:1.0.2 (c)
+|    +--- org.glassfish:javax.json:1.1.4 (c)
+|    +--- com.oracle.substratevm:svm:1.0.0-rc12 (c)
+|    +--- org.eclipse.microprofile.config:microprofile-config-api:1.3 (c)
+|    +--- org.wildfly.security:wildfly-elytron-auth-server:2.0.0.Alpha1 (c)
+|    +--- org.jboss.resteasy:resteasy-core:4.0.0.Beta8 (c)
+|    +--- io.undertow:undertow-core:2.0.17.Final (c)
+|    +--- org.jboss.spec.javax.servlet:jboss-servlet-api_4.0_spec:1.0.0.Final (c)
+|    +--- org.jboss.xnio:xnio-api:3.6.5.Final (c)
+|    +--- org.jboss.xnio:xnio-nio:3.6.5.Final (c)
+|    +--- javax.xml.bind:jaxb-api:2.3.1 (c)
+|    +--- org.jboss.spec.javax.xml.bind:jboss-jaxb-api_2.3_spec:1.0.1.Final (c)
+|    +--- org.jboss.spec.javax.ws.rs:jboss-jaxrs-api_2.1_spec:1.0.2.Final (c)
+|    +--- commons-io:commons-io:2.5 (c)
+|    +--- org.apache.httpcomponents:httpclient:4.5.6 (c)
+|    +--- net.jcip:jcip-annotations:1.0 (c)
+|    +--- org.reactivestreams:reactive-streams:1.0.2 (c)
+|    +--- org.jboss.resteasy:resteasy-core-spi:4.0.0.Beta8 (c)
+|    \--- org.apache.httpcomponents:httpcore:4.4.10 (c)
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.21
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.3.21
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.3.21
+|    |    \--- org.jetbrains:annotations:13.0
+|    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.21
+|         \--- org.jetbrains.kotlin:kotlin-stdlib:1.3.21 (*)
++--- io.quarkus:quarkus-arc -> 0.11.0
+|    +--- io.quarkus:quarkus-core:0.11.0
+|    |    +--- commons-beanutils:commons-beanutils-core:1.8.3
+|    |    |    \--- commons-logging:commons-logging:1.1.1 -> 1.2
+|    |    +--- org.jboss.invocation:jboss-invocation:1.5.1.Final
+|    |    +--- org.wildfly.common:wildfly-common:1.5.0.Final-format-001
+|    |    +--- org.jboss.classfilewriter:jboss-classfilewriter:1.2.4.Final
+|    |    +--- io.quarkus.gizmo:gizmo:1.0.0.Alpha2
+|    |    |    +--- org.ow2.asm:asm:6.2.1
+|    |    |    \--- org.jboss:jandex:2.1.0.Final -> 2.1.1.Final
+|    |    +--- org.jboss:jandex:2.1.1.Final
+|    |    +--- org.ow2.asm:asm:6.2.1
+|    |    +--- io.quarkus:quarkus-core-runtime:0.11.0
+|    |    |    +--- javax.inject:javax.inject:1
+|    |    |    +--- javax.annotation:javax.annotation-api:1.3.2
+|    |    |    +--- io.smallrye:smallrye-config:1.3.5
+|    |    |    |    +--- org.eclipse.microprofile.config:microprofile-config-api:1.3
+|    |    |    |    |    \--- org.osgi:org.osgi.annotation.versioning:1.0.0
+|    |    |    |    +--- javax.enterprise:cdi-api:1.2 -> 2.0
+|    |    |    |    |    +--- javax.el:javax.el-api:3.0.0
+|    |    |    |    |    +--- javax.interceptor:javax.interceptor-api:1.2
+|    |    |    |    |    \--- javax.inject:javax.inject:1
+|    |    |    |    +--- javax.annotation:javax.annotation-api:1.2 -> 1.3.2
+|    |    |    |    \--- org.jboss.logging:jboss-logging:3.3.2.Final
+|    |    |    +--- org.jboss.logging:jboss-logging:3.3.2.Final
+|    |    |    +--- org.jboss.logmanager:jboss-logmanager-embedded:1.0.0
+|    |    |    |    +--- com.oracle.substratevm:svm:1.0.0-rc12
+|    |    |    |    \--- org.wildfly.common:wildfly-common:1.5.0.Final-format-001
+|    |    |    +--- org.jboss.logging:jboss-logging-annotations:2.1.0.Final
+|    |    |    +--- org.jboss.threads:jboss-threads:3.0.0.Alpha4
+|    |    |    |    +--- org.jboss.logging:jboss-logging:3.3.1.Final -> 3.3.2.Final
+|    |    |    |    \--- org.wildfly.common:wildfly-common:1.4.0.Final -> 1.5.0.Final-format-001
+|    |    |    +--- org.slf4j:slf4j-api:1.7.25
+|    |    |    +--- org.jboss.slf4j:slf4j-jboss-logging:1.1.0.Final
+|    |    |    |    +--- org.slf4j:slf4j-api:1.7.21 -> 1.7.25
+|    |    |    |    \--- org.jboss.logging:jboss-logging:3.3.0.Final -> 3.3.2.Final
+|    |    |    +--- org.graalvm.sdk:graal-sdk:1.0.0-rc12
+|    |    |    +--- org.wildfly.common:wildfly-common:1.5.0.Final-format-001
+|    |    |    +--- org.wildfly.security:wildfly-elytron-ssl:2.0.0.Alpha1
+|    |    |    |    +--- org.wildfly.security:wildfly-elytron-auth-server:2.0.0.Alpha1
+|    |    |    |    |    +--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-auth:2.0.0.Alpha1
+|    |    |    |    |    |    +--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    |    |    |    |    \--- org.wildfly.security:wildfly-elytron-util:2.0.0.Alpha1
+|    |    |    |    |    |         +--- org.wildfly.security:wildfly-elytron-asn1:2.0.0.Alpha1
+|    |    |    |    |    |         |    +--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    |    |    |    |         |    \--- org.jboss.logging:jboss-logging:3.3.1.Final -> 3.3.2.Final
+|    |    |    |    |    |         +--- org.wildfly.security:wildfly-elytron-base:2.0.0.Alpha1
+|    |    |    |    |    |         |    +--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    |    |    |    |         |    \--- org.jboss.logging:jboss-logging:3.3.1.Final -> 3.3.2.Final
+|    |    |    |    |    |         \--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-base:2.0.0.Alpha1 (*)
+|    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-credential:2.0.0.Alpha1
+|    |    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-asn1:2.0.0.Alpha1 (*)
+|    |    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-util:2.0.0.Alpha1 (*)
+|    |    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-x500:2.0.0.Alpha1
+|    |    |    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-asn1:2.0.0.Alpha1 (*)
+|    |    |    |    |    |    |    \--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    |    |    |    |    \--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-permission:2.0.0.Alpha1
+|    |    |    |    |    |    +--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-util:2.0.0.Alpha1 (*)
+|    |    |    |    |    |    \--- org.jboss.logging:jboss-logging:3.3.1.Final -> 3.3.2.Final
+|    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-util:2.0.0.Alpha1 (*)
+|    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-x500:2.0.0.Alpha1 (*)
+|    |    |    |    |    \--- org.jboss.logging:jboss-logging:3.3.1.Final -> 3.3.2.Final
+|    |    |    |    +--- org.wildfly.security:wildfly-elytron-base:2.0.0.Alpha1 (*)
+|    |    |    |    +--- org.wildfly.security:wildfly-elytron-credential:2.0.0.Alpha1 (*)
+|    |    |    |    +--- org.wildfly.security:wildfly-elytron-auth:2.0.0.Alpha1 (*)
+|    |    |    |    +--- org.wildfly.security:wildfly-elytron-util:2.0.0.Alpha1 (*)
+|    |    |    |    +--- org.wildfly.security:wildfly-elytron-x500:2.0.0.Alpha1 (*)
+|    |    |    |    +--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    |    |    \--- org.jboss.logging:jboss-logging:3.3.1.Final -> 3.3.2.Final
+|    |    |    \--- org.wildfly.security:wildfly-elytron-x500-cert:2.0.0.Alpha1
+|    |    |         +--- org.wildfly.security:wildfly-elytron-asn1:2.0.0.Alpha1 (*)
+|    |    |         +--- org.wildfly.security:wildfly-elytron-x500:2.0.0.Alpha1 (*)
+|    |    |         +--- org.wildfly.security:wildfly-elytron-x500-cert-util:2.0.0.Alpha1
+|    |    |         |    \--- org.wildfly.security:wildfly-elytron-asn1:2.0.0.Alpha1 (*)
+|    |    |         \--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    \--- io.quarkus:quarkus-builder:0.11.0
+|    |         +--- org.wildfly.common:wildfly-common:1.5.0.Final-format-001
+|    |         +--- org.jboss.logging:jboss-logging:3.3.2.Final
+|    |         \--- org.jboss.threads:jboss-threads:3.0.0.Alpha4 (*)
+|    +--- io.quarkus:quarkus-arc-runtime:0.11.0
+|    |    +--- io.quarkus.arc:arc-runtime:0.11.0
+|    |    |    +--- javax.enterprise:cdi-api:2.0.SP1 -> 2.0 (*)
+|    |    |    +--- javax.annotation:javax.annotation-api:1.3.2
+|    |    |    \--- org.jboss.logging:jboss-logging:3.3.2.Final
+|    |    \--- io.quarkus:quarkus-core-runtime:0.11.0 (*)
+|    \--- io.quarkus.arc:arc-processor:0.11.0
+|         +--- io.quarkus.arc:arc-runtime:0.11.0 (*)
+|         +--- javax.enterprise:cdi-api:2.0.SP1 -> 2.0 (*)
+|         +--- org.jboss.logging:jboss-logging:3.3.2.Final
+|         +--- org.jboss:jandex:2.1.0.Final -> 2.1.1.Final
+|         +--- io.quarkus.gizmo:gizmo:1.0.0.Alpha2 (*)
+|         \--- javax.annotation:javax.annotation-api:1.3.2
++--- io.quarkus:quarkus-resteasy-jsonb -> 0.11.0
+|    +--- io.quarkus:quarkus-resteasy:0.11.0
+|    |    +--- io.quarkus:quarkus-core:0.11.0 (*)
+|    |    +--- io.quarkus:quarkus-resteasy-common:0.11.0
+|    |    |    \--- io.quarkus:quarkus-resteasy-common-runtime:0.11.0
+|    |    |         +--- io.quarkus:quarkus-core-runtime:0.11.0 (*)
+|    |    |         \--- org.jboss.resteasy:resteasy-core:4.0.0.Beta8
+|    |    |              +--- org.jboss.spec.javax.ws.rs:jboss-jaxrs-api_2.1_spec:1.0.2.Final
+|    |    |              +--- org.jboss.spec.javax.xml.bind:jboss-jaxb-api_2.3_spec:1.0.1.Final
+|    |    |              +--- org.jboss.resteasy:resteasy-core-spi:4.0.0.Beta8
+|    |    |              |    +--- org.jboss.spec.javax.ws.rs:jboss-jaxrs-api_2.1_spec:1.0.2.Final
+|    |    |              |    +--- org.jboss.spec.javax.xml.bind:jboss-jaxb-api_2.3_spec:1.0.1.Final
+|    |    |              |    +--- org.reactivestreams:reactive-streams:1.0.2
+|    |    |              |    +--- javax.validation:validation-api:2.0.1.Final
+|    |    |              |    +--- org.apache.httpcomponents:httpclient:4.5.4 -> 4.5.6
+|    |    |              |    |    +--- org.apache.httpcomponents:httpcore:4.4.10
+|    |    |              |    |    +--- commons-logging:commons-logging:1.2
+|    |    |              |    |    \--- commons-codec:commons-codec:1.10
+|    |    |              |    +--- commons-io:commons-io:2.5
+|    |    |              |    +--- net.jcip:jcip-annotations:1.0
+|    |    |              |    \--- org.jboss.logging:jboss-logging:3.3.2.Final
+|    |    |              +--- org.reactivestreams:reactive-streams:1.0.2
+|    |    |              +--- javax.validation:validation-api:2.0.1.Final
+|    |    |              +--- org.apache.httpcomponents:httpclient:4.5.4 -> 4.5.6 (*)
+|    |    |              +--- commons-io:commons-io:2.5
+|    |    |              +--- net.jcip:jcip-annotations:1.0
+|    |    |              \--- org.jboss.logging:jboss-logging:3.3.2.Final
+|    |    +--- io.quarkus:quarkus-undertow:0.11.0
+|    |    |    +--- io.undertow:undertow-servlet:2.0.17.Final
+|    |    |    |    +--- io.undertow:undertow-core:2.0.17.Final
+|    |    |    |    |    +--- org.jboss.logging:jboss-logging:3.3.2.Final
+|    |    |    |    |    +--- org.jboss.xnio:xnio-api:3.3.8.Final -> 3.6.5.Final
+|    |    |    |    |    |    +--- org.wildfly.common:wildfly-common:1.3.0.Final -> 1.5.0.Final-format-001
+|    |    |    |    |    |    \--- org.jboss.threads:jboss-threads:2.3.0.Beta2 -> 3.0.0.Alpha4 (*)
+|    |    |    |    |    \--- org.jboss.xnio:xnio-nio:3.3.8.Final -> 3.6.5.Final
+|    |    |    |    |         \--- org.jboss.xnio:xnio-api:3.6.5.Final (*)
+|    |    |    |    \--- org.jboss.spec.javax.servlet:jboss-servlet-api_4.0_spec:1.0.0.Final
+|    |    |    +--- io.quarkus:quarkus-core:0.11.0 (*)
+|    |    |    +--- io.quarkus:quarkus-arc:0.11.0 (*)
+|    |    |    +--- io.quarkus:quarkus-undertow-runtime:0.11.0
+|    |    |    |    +--- io.quarkus:quarkus-arc-runtime:0.11.0 (*)
+|    |    |    |    +--- io.undertow:undertow-servlet:2.0.17.Final (*)
+|    |    |    |    +--- org.jboss.xnio:xnio-nio:3.6.5.Final (*)
+|    |    |    |    +--- org.jboss.xnio:xnio-api:3.6.5.Final (*)
+|    |    |    |    \--- io.quarkus:quarkus-core-runtime:0.11.0 (*)
+|    |    |    \--- org.jboss.metadata:jboss-metadata-web:11.0.0.Final
+|    |    |         \--- org.jboss.metadata:jboss-metadata-common:11.0.0.Final
+|    |    +--- io.quarkus:quarkus-arc:0.11.0 (*)
+|    |    +--- io.quarkus:quarkus-jaxb:0.11.0
+|    |    |    +--- io.quarkus:quarkus-core:0.11.0 (*)
+|    |    |    \--- io.quarkus:quarkus-jaxb-runtime:0.11.0
+|    |    |         +--- io.quarkus:quarkus-core-runtime:0.11.0 (*)
+|    |    |         \--- javax.xml.bind:jaxb-api:2.3.1
+|    |    \--- io.quarkus:quarkus-resteasy-runtime:0.11.0
+|    |         +--- io.quarkus:quarkus-core-runtime:0.11.0 (*)
+|    |         +--- io.quarkus:quarkus-undertow-runtime:0.11.0 (*)
+|    |         +--- io.quarkus:quarkus-arc-runtime:0.11.0 (*)
+|    |         +--- io.quarkus:quarkus-resteasy-common-runtime:0.11.0 (*)
+|    |         +--- javax.validation:validation-api:2.0.1.Final
+|    |         +--- com.sun.activation:jakarta.activation:1.2.1
+|    |         \--- io.quarkus:quarkus-jaxb-runtime:0.11.0 (*)
+|    \--- io.quarkus:quarkus-resteasy-jsonb-runtime:0.11.0
+|         +--- io.quarkus:quarkus-resteasy-runtime:0.11.0 (*)
+|         +--- org.jboss.resteasy:resteasy-json-binding-provider:4.0.0.Beta8
+|         |    +--- org.glassfish:javax.json:1.1.2 -> 1.1.4
+|         |    +--- javax.json.bind:javax.json.bind-api:1.0
+|         |    \--- org.eclipse:yasson:1.0.2
+|         |         +--- javax.json.bind:javax.json.bind-api:1.0
+|         |         \--- javax.enterprise:cdi-api:2.0 (*)
+|         \--- org.jboss.resteasy:resteasy-json-p-provider:4.0.0.Beta8
+|              \--- org.glassfish:javax.json:1.1.2 -> 1.1.4
+\--- io.quarkus:quarkus-kotlin -> 0.11.0
+     +--- io.quarkus:quarkus-development-mode:0.11.0
+     |    +--- io.quarkus:quarkus-core:0.11.0 (*)
+     |    \--- org.jboss.logmanager:jboss-logmanager-embedded:1.0.0 (*)
+     \--- org.jetbrains.kotlin:kotlin-compiler-embeddable:1.3.21
+          +--- org.jetbrains.kotlin:kotlin-stdlib:1.3.21 (*)
+          +--- org.jetbrains.kotlin:kotlin-script-runtime:1.3.21
+          +--- org.jetbrains.kotlin:kotlin-reflect:1.3.21
+          |    \--- org.jetbrains.kotlin:kotlin-stdlib:1.3.21 (*)
+          \--- org.jetbrains.intellij.deps:trove4j:1.0.20181211
+
+runtimeElements - Elements of runtime for main. (n)
+No dependencies
+
+runtimeOnly - Runtime only dependencies for compilation 'main' (target  (jvm)). (n)
+No dependencies
+
+runtimeOnlyDependenciesMetadata
+No dependencies
+
+testAnnotationProcessor - Annotation processors and their dependencies for source set 'test'.
+No dependencies
+
+testApi - API dependencies for compilation 'test' (target  (jvm)). (n)
+No dependencies
+
+testApiDependenciesMetadata
+No dependencies
+
+testCompile - Dependencies for compilation 'test' (target  (jvm)) (deprecated, use 'testImplementation ' instead).
+No dependencies
+
+testCompileClasspath - Compile classpath for compilation 'test' (target  (jvm)).
++--- io.quarkus:quarkus-bom:0.11.0
+|    +--- io.quarkus:quarkus-arc:0.11.0 (c)
+|    +--- io.quarkus:quarkus-resteasy-jsonb:0.11.0 (c)
+|    +--- io.quarkus:quarkus-kotlin:0.11.0 (c)
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.21 (c)
+|    +--- junit:junit:4.12 (c)
+|    +--- io.quarkus:quarkus-core:0.11.0 (c)
+|    +--- io.quarkus.arc:arc-processor:0.11.0 (c)
+|    +--- io.quarkus:quarkus-resteasy:0.11.0 (c)
+|    +--- org.jetbrains.kotlin:kotlin-compiler-embeddable:1.3.21 (c)
+|    +--- io.quarkus.gizmo:gizmo:1.0.0.Alpha2 (c)
+|    +--- commons-beanutils:commons-beanutils-core:1.8.3 (c)
+|    +--- org.jboss:jandex:2.1.1.Final (c)
+|    +--- org.jboss.classfilewriter:jboss-classfilewriter:1.2.4.Final (c)
+|    +--- org.jboss.invocation:jboss-invocation:1.5.1.Final (c)
+|    +--- org.wildfly.common:wildfly-common:1.5.0.Final-format-001 (c)
+|    +--- org.ow2.asm:asm:6.2.1 (c)
+|    +--- io.quarkus.arc:arc-runtime:0.11.0 (c)
+|    +--- org.jboss.logging:jboss-logging:3.3.2.Final (c)
+|    +--- javax.enterprise:cdi-api:2.0.SP1 -> 2.0 (c)
+|    +--- javax.annotation:javax.annotation-api:1.3.2 (c)
+|    +--- io.quarkus:quarkus-jaxb:0.11.0 (c)
+|    +--- io.quarkus:quarkus-undertow:0.11.0 (c)
+|    +--- org.jboss.resteasy:resteasy-json-p-provider:4.0.0.Beta8 (c)
+|    +--- org.jboss.resteasy:resteasy-json-binding-provider:4.0.0.Beta8 (c)
+|    +--- org.jboss.logmanager:jboss-logmanager-embedded:1.0.0 (c)
+|    +--- commons-logging:commons-logging:1.2 (c)
+|    +--- org.slf4j:slf4j-api:1.7.25 (c)
+|    +--- org.jboss.logging:jboss-logging-annotations:2.1.0.Final (c)
+|    +--- io.smallrye:smallrye-config:1.3.5 (c)
+|    +--- javax.inject:javax.inject:1 (c)
+|    +--- org.graalvm.sdk:graal-sdk:1.0.0-rc12 (c)
+|    +--- org.jboss.threads:jboss-threads:3.0.0.Alpha4 (c)
+|    +--- org.wildfly.security:wildfly-elytron-ssl:2.0.0.Alpha1 (c)
+|    +--- org.wildfly.security:wildfly-elytron-x500-cert:2.0.0.Alpha1 (c)
+|    +--- org.jboss.slf4j:slf4j-jboss-logging:1.1.0.Final (c)
+|    +--- io.undertow:undertow-servlet:2.0.17.Final (c)
+|    +--- org.jboss.metadata:jboss-metadata-web:11.0.0.Final (c)
+|    +--- javax.validation:validation-api:2.0.1.Final (c)
+|    +--- com.sun.activation:jakarta.activation:1.2.1 (c)
+|    +--- javax.json.bind:javax.json.bind-api:1.0 (c)
+|    +--- org.eclipse:yasson:1.0.2 (c)
+|    +--- org.glassfish:javax.json:1.1.4 (c)
+|    +--- com.oracle.substratevm:svm:1.0.0-rc12 (c)
+|    +--- org.eclipse.microprofile.config:microprofile-config-api:1.3 (c)
+|    +--- org.wildfly.security:wildfly-elytron-auth-server:2.0.0.Alpha1 (c)
+|    +--- org.jboss.resteasy:resteasy-core:4.0.0.Beta8 (c)
+|    +--- io.undertow:undertow-core:2.0.17.Final (c)
+|    +--- org.jboss.spec.javax.servlet:jboss-servlet-api_4.0_spec:1.0.0.Final (c)
+|    +--- org.jboss.xnio:xnio-api:3.6.5.Final (c)
+|    +--- org.jboss.xnio:xnio-nio:3.6.5.Final (c)
+|    +--- javax.xml.bind:jaxb-api:2.3.1 (c)
+|    +--- org.jboss.spec.javax.xml.bind:jboss-jaxb-api_2.3_spec:1.0.1.Final (c)
+|    +--- org.jboss.spec.javax.ws.rs:jboss-jaxrs-api_2.1_spec:1.0.2.Final (c)
+|    +--- commons-io:commons-io:2.5 (c)
+|    +--- org.apache.httpcomponents:httpclient:4.5.6 (c)
+|    +--- net.jcip:jcip-annotations:1.0 (c)
+|    +--- org.reactivestreams:reactive-streams:1.0.2 (c)
+|    +--- org.jboss.resteasy:resteasy-core-spi:4.0.0.Beta8 (c)
+|    \--- org.apache.httpcomponents:httpcore:4.4.10 (c)
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.21
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.3.21
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.3.21
+|    |    \--- org.jetbrains:annotations:13.0
+|    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.21
+|         \--- org.jetbrains.kotlin:kotlin-stdlib:1.3.21 (*)
++--- io.quarkus:quarkus-arc -> 0.11.0
+|    +--- io.quarkus:quarkus-core:0.11.0
+|    |    +--- commons-beanutils:commons-beanutils-core:1.8.3
+|    |    |    \--- commons-logging:commons-logging:1.1.1 -> 1.2
+|    |    +--- org.jboss.invocation:jboss-invocation:1.5.1.Final
+|    |    +--- org.wildfly.common:wildfly-common:1.5.0.Final-format-001
+|    |    +--- org.jboss.classfilewriter:jboss-classfilewriter:1.2.4.Final
+|    |    +--- io.quarkus.gizmo:gizmo:1.0.0.Alpha2
+|    |    |    +--- org.ow2.asm:asm:6.2.1
+|    |    |    \--- org.jboss:jandex:2.1.0.Final -> 2.1.1.Final
+|    |    +--- org.jboss:jandex:2.1.1.Final
+|    |    +--- org.ow2.asm:asm:6.2.1
+|    |    +--- io.quarkus:quarkus-core-runtime:0.11.0
+|    |    |    +--- javax.inject:javax.inject:1
+|    |    |    +--- javax.annotation:javax.annotation-api:1.3.2
+|    |    |    +--- io.smallrye:smallrye-config:1.3.5
+|    |    |    |    +--- org.eclipse.microprofile.config:microprofile-config-api:1.3
+|    |    |    |    |    \--- org.osgi:org.osgi.annotation.versioning:1.0.0
+|    |    |    |    +--- javax.enterprise:cdi-api:1.2 -> 2.0
+|    |    |    |    |    +--- javax.el:javax.el-api:3.0.0
+|    |    |    |    |    +--- javax.interceptor:javax.interceptor-api:1.2
+|    |    |    |    |    \--- javax.inject:javax.inject:1
+|    |    |    |    +--- javax.annotation:javax.annotation-api:1.2 -> 1.3.2
+|    |    |    |    \--- org.jboss.logging:jboss-logging:3.3.2.Final
+|    |    |    +--- org.jboss.logging:jboss-logging:3.3.2.Final
+|    |    |    +--- org.jboss.logmanager:jboss-logmanager-embedded:1.0.0
+|    |    |    |    +--- com.oracle.substratevm:svm:1.0.0-rc12
+|    |    |    |    \--- org.wildfly.common:wildfly-common:1.5.0.Final-format-001
+|    |    |    +--- org.jboss.logging:jboss-logging-annotations:2.1.0.Final
+|    |    |    +--- org.jboss.threads:jboss-threads:3.0.0.Alpha4
+|    |    |    |    +--- org.jboss.logging:jboss-logging:3.3.1.Final -> 3.3.2.Final
+|    |    |    |    \--- org.wildfly.common:wildfly-common:1.4.0.Final -> 1.5.0.Final-format-001
+|    |    |    +--- org.slf4j:slf4j-api:1.7.25
+|    |    |    +--- org.jboss.slf4j:slf4j-jboss-logging:1.1.0.Final
+|    |    |    |    +--- org.slf4j:slf4j-api:1.7.21 -> 1.7.25
+|    |    |    |    \--- org.jboss.logging:jboss-logging:3.3.0.Final -> 3.3.2.Final
+|    |    |    +--- org.graalvm.sdk:graal-sdk:1.0.0-rc12
+|    |    |    +--- org.wildfly.common:wildfly-common:1.5.0.Final-format-001
+|    |    |    +--- org.wildfly.security:wildfly-elytron-ssl:2.0.0.Alpha1
+|    |    |    |    +--- org.wildfly.security:wildfly-elytron-auth-server:2.0.0.Alpha1
+|    |    |    |    |    +--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-auth:2.0.0.Alpha1
+|    |    |    |    |    |    +--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    |    |    |    |    \--- org.wildfly.security:wildfly-elytron-util:2.0.0.Alpha1
+|    |    |    |    |    |         +--- org.wildfly.security:wildfly-elytron-asn1:2.0.0.Alpha1
+|    |    |    |    |    |         |    +--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    |    |    |    |         |    \--- org.jboss.logging:jboss-logging:3.3.1.Final -> 3.3.2.Final
+|    |    |    |    |    |         +--- org.wildfly.security:wildfly-elytron-base:2.0.0.Alpha1
+|    |    |    |    |    |         |    +--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    |    |    |    |         |    \--- org.jboss.logging:jboss-logging:3.3.1.Final -> 3.3.2.Final
+|    |    |    |    |    |         \--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-base:2.0.0.Alpha1 (*)
+|    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-credential:2.0.0.Alpha1
+|    |    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-asn1:2.0.0.Alpha1 (*)
+|    |    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-util:2.0.0.Alpha1 (*)
+|    |    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-x500:2.0.0.Alpha1
+|    |    |    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-asn1:2.0.0.Alpha1 (*)
+|    |    |    |    |    |    |    \--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    |    |    |    |    \--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-permission:2.0.0.Alpha1
+|    |    |    |    |    |    +--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-util:2.0.0.Alpha1 (*)
+|    |    |    |    |    |    \--- org.jboss.logging:jboss-logging:3.3.1.Final -> 3.3.2.Final
+|    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-util:2.0.0.Alpha1 (*)
+|    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-x500:2.0.0.Alpha1 (*)
+|    |    |    |    |    \--- org.jboss.logging:jboss-logging:3.3.1.Final -> 3.3.2.Final
+|    |    |    |    +--- org.wildfly.security:wildfly-elytron-base:2.0.0.Alpha1 (*)
+|    |    |    |    +--- org.wildfly.security:wildfly-elytron-credential:2.0.0.Alpha1 (*)
+|    |    |    |    +--- org.wildfly.security:wildfly-elytron-auth:2.0.0.Alpha1 (*)
+|    |    |    |    +--- org.wildfly.security:wildfly-elytron-util:2.0.0.Alpha1 (*)
+|    |    |    |    +--- org.wildfly.security:wildfly-elytron-x500:2.0.0.Alpha1 (*)
+|    |    |    |    +--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    |    |    \--- org.jboss.logging:jboss-logging:3.3.1.Final -> 3.3.2.Final
+|    |    |    \--- org.wildfly.security:wildfly-elytron-x500-cert:2.0.0.Alpha1
+|    |    |         +--- org.wildfly.security:wildfly-elytron-asn1:2.0.0.Alpha1 (*)
+|    |    |         +--- org.wildfly.security:wildfly-elytron-x500:2.0.0.Alpha1 (*)
+|    |    |         +--- org.wildfly.security:wildfly-elytron-x500-cert-util:2.0.0.Alpha1
+|    |    |         |    \--- org.wildfly.security:wildfly-elytron-asn1:2.0.0.Alpha1 (*)
+|    |    |         \--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    \--- io.quarkus:quarkus-builder:0.11.0
+|    |         +--- org.wildfly.common:wildfly-common:1.5.0.Final-format-001
+|    |         +--- org.jboss.logging:jboss-logging:3.3.2.Final
+|    |         \--- org.jboss.threads:jboss-threads:3.0.0.Alpha4 (*)
+|    +--- io.quarkus:quarkus-arc-runtime:0.11.0
+|    |    +--- io.quarkus.arc:arc-runtime:0.11.0
+|    |    |    +--- javax.enterprise:cdi-api:2.0.SP1 -> 2.0 (*)
+|    |    |    +--- javax.annotation:javax.annotation-api:1.3.2
+|    |    |    \--- org.jboss.logging:jboss-logging:3.3.2.Final
+|    |    \--- io.quarkus:quarkus-core-runtime:0.11.0 (*)
+|    \--- io.quarkus.arc:arc-processor:0.11.0
+|         +--- io.quarkus.arc:arc-runtime:0.11.0 (*)
+|         +--- javax.enterprise:cdi-api:2.0.SP1 -> 2.0 (*)
+|         +--- org.jboss.logging:jboss-logging:3.3.2.Final
+|         +--- org.jboss:jandex:2.1.0.Final -> 2.1.1.Final
+|         +--- io.quarkus.gizmo:gizmo:1.0.0.Alpha2 (*)
+|         \--- javax.annotation:javax.annotation-api:1.3.2
++--- io.quarkus:quarkus-resteasy-jsonb -> 0.11.0
+|    +--- io.quarkus:quarkus-resteasy:0.11.0
+|    |    +--- io.quarkus:quarkus-core:0.11.0 (*)
+|    |    +--- io.quarkus:quarkus-resteasy-common:0.11.0
+|    |    |    \--- io.quarkus:quarkus-resteasy-common-runtime:0.11.0
+|    |    |         +--- io.quarkus:quarkus-core-runtime:0.11.0 (*)
+|    |    |         \--- org.jboss.resteasy:resteasy-core:4.0.0.Beta8
+|    |    |              +--- org.jboss.spec.javax.ws.rs:jboss-jaxrs-api_2.1_spec:1.0.2.Final
+|    |    |              +--- org.jboss.spec.javax.xml.bind:jboss-jaxb-api_2.3_spec:1.0.1.Final
+|    |    |              +--- org.jboss.resteasy:resteasy-core-spi:4.0.0.Beta8
+|    |    |              |    +--- org.jboss.spec.javax.ws.rs:jboss-jaxrs-api_2.1_spec:1.0.2.Final
+|    |    |              |    +--- org.jboss.spec.javax.xml.bind:jboss-jaxb-api_2.3_spec:1.0.1.Final
+|    |    |              |    +--- org.reactivestreams:reactive-streams:1.0.2
+|    |    |              |    +--- javax.validation:validation-api:2.0.1.Final
+|    |    |              |    +--- org.apache.httpcomponents:httpclient:4.5.4 -> 4.5.6
+|    |    |              |    |    +--- org.apache.httpcomponents:httpcore:4.4.10
+|    |    |              |    |    +--- commons-logging:commons-logging:1.2
+|    |    |              |    |    \--- commons-codec:commons-codec:1.10
+|    |    |              |    +--- commons-io:commons-io:2.5
+|    |    |              |    +--- net.jcip:jcip-annotations:1.0
+|    |    |              |    \--- org.jboss.logging:jboss-logging:3.3.2.Final
+|    |    |              +--- org.reactivestreams:reactive-streams:1.0.2
+|    |    |              +--- javax.validation:validation-api:2.0.1.Final
+|    |    |              +--- org.apache.httpcomponents:httpclient:4.5.4 -> 4.5.6 (*)
+|    |    |              +--- commons-io:commons-io:2.5
+|    |    |              +--- net.jcip:jcip-annotations:1.0
+|    |    |              \--- org.jboss.logging:jboss-logging:3.3.2.Final
+|    |    +--- io.quarkus:quarkus-undertow:0.11.0
+|    |    |    +--- io.undertow:undertow-servlet:2.0.17.Final
+|    |    |    |    +--- io.undertow:undertow-core:2.0.17.Final
+|    |    |    |    |    +--- org.jboss.logging:jboss-logging:3.3.2.Final
+|    |    |    |    |    \--- org.jboss.xnio:xnio-api:3.3.8.Final -> 3.6.5.Final
+|    |    |    |    |         +--- org.wildfly.common:wildfly-common:1.3.0.Final -> 1.5.0.Final-format-001
+|    |    |    |    |         \--- org.jboss.threads:jboss-threads:2.3.0.Beta2 -> 3.0.0.Alpha4 (*)
+|    |    |    |    \--- org.jboss.spec.javax.servlet:jboss-servlet-api_4.0_spec:1.0.0.Final
+|    |    |    +--- io.quarkus:quarkus-core:0.11.0 (*)
+|    |    |    +--- io.quarkus:quarkus-arc:0.11.0 (*)
+|    |    |    +--- io.quarkus:quarkus-undertow-runtime:0.11.0
+|    |    |    |    +--- io.quarkus:quarkus-arc-runtime:0.11.0 (*)
+|    |    |    |    +--- io.undertow:undertow-servlet:2.0.17.Final (*)
+|    |    |    |    +--- org.jboss.xnio:xnio-nio:3.6.5.Final
+|    |    |    |    |    \--- org.jboss.xnio:xnio-api:3.6.5.Final (*)
+|    |    |    |    +--- org.jboss.xnio:xnio-api:3.6.5.Final (*)
+|    |    |    |    \--- io.quarkus:quarkus-core-runtime:0.11.0 (*)
+|    |    |    \--- org.jboss.metadata:jboss-metadata-web:11.0.0.Final
+|    |    |         \--- org.jboss.metadata:jboss-metadata-common:11.0.0.Final
+|    |    +--- io.quarkus:quarkus-arc:0.11.0 (*)
+|    |    +--- io.quarkus:quarkus-jaxb:0.11.0
+|    |    |    +--- io.quarkus:quarkus-core:0.11.0 (*)
+|    |    |    \--- io.quarkus:quarkus-jaxb-runtime:0.11.0
+|    |    |         +--- io.quarkus:quarkus-core-runtime:0.11.0 (*)
+|    |    |         \--- javax.xml.bind:jaxb-api:2.3.1
+|    |    \--- io.quarkus:quarkus-resteasy-runtime:0.11.0
+|    |         +--- io.quarkus:quarkus-core-runtime:0.11.0 (*)
+|    |         +--- io.quarkus:quarkus-undertow-runtime:0.11.0 (*)
+|    |         +--- io.quarkus:quarkus-arc-runtime:0.11.0 (*)
+|    |         +--- io.quarkus:quarkus-resteasy-common-runtime:0.11.0 (*)
+|    |         +--- javax.validation:validation-api:2.0.1.Final
+|    |         +--- com.sun.activation:jakarta.activation:1.2.1
+|    |         \--- io.quarkus:quarkus-jaxb-runtime:0.11.0 (*)
+|    \--- io.quarkus:quarkus-resteasy-jsonb-runtime:0.11.0
+|         +--- io.quarkus:quarkus-resteasy-runtime:0.11.0 (*)
+|         +--- org.jboss.resteasy:resteasy-json-binding-provider:4.0.0.Beta8
+|         |    +--- org.glassfish:javax.json:1.1.2 -> 1.1.4
+|         |    +--- javax.json.bind:javax.json.bind-api:1.0
+|         |    \--- org.eclipse:yasson:1.0.2
+|         |         +--- javax.json.bind:javax.json.bind-api:1.0
+|         |         \--- javax.enterprise:cdi-api:2.0 (*)
+|         \--- org.jboss.resteasy:resteasy-json-p-provider:4.0.0.Beta8
+|              \--- org.glassfish:javax.json:1.1.2 -> 1.1.4
++--- io.quarkus:quarkus-kotlin -> 0.11.0
+|    +--- io.quarkus:quarkus-development-mode:0.11.0
+|    |    +--- io.quarkus:quarkus-core:0.11.0 (*)
+|    |    \--- org.jboss.logmanager:jboss-logmanager-embedded:1.0.0 (*)
+|    \--- org.jetbrains.kotlin:kotlin-compiler-embeddable:1.3.21
++--- org.jetbrains.kotlin:kotlin-test:1.3.21
+|    +--- org.jetbrains.kotlin:kotlin-test-common:1.3.21
+|    |    \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.3.21
+|    \--- org.jetbrains.kotlin:kotlin-stdlib:1.3.21 (*)
+\--- org.jetbrains.kotlin:kotlin-test-junit:1.3.21
+     +--- org.jetbrains.kotlin:kotlin-test-annotations-common:1.3.21
+     |    \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.3.21
+     +--- org.jetbrains.kotlin:kotlin-test:1.3.21 (*)
+     \--- junit:junit:4.12
+          \--- org.hamcrest:hamcrest-core:1.3
+
+testCompileOnly - Compile only dependencies for compilation 'test' (target  (jvm)).
+No dependencies
+
+testCompileOnlyDependenciesMetadata
+No dependencies
+
+testImplementation - Implementation only dependencies for compilation 'test' (target  (jvm)). (n)
++--- org.jetbrains.kotlin:kotlin-test:1.3.21 (n)
+\--- org.jetbrains.kotlin:kotlin-test-junit:1.3.21 (n)
+
+testImplementationDependenciesMetadata
++--- io.quarkus:quarkus-bom:0.11.0
+|    +--- io.quarkus:quarkus-arc:0.11.0 (c)
+|    +--- io.quarkus:quarkus-resteasy-jsonb:0.11.0 (c)
+|    +--- io.quarkus:quarkus-kotlin:0.11.0 (c)
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.21 (c)
+|    +--- junit:junit:4.12 (c)
+|    +--- io.quarkus:quarkus-core:0.11.0 (c)
+|    +--- io.quarkus.arc:arc-processor:0.11.0 (c)
+|    +--- io.quarkus:quarkus-resteasy:0.11.0 (c)
+|    +--- org.jetbrains.kotlin:kotlin-compiler-embeddable:1.3.21 (c)
+|    +--- io.quarkus.gizmo:gizmo:1.0.0.Alpha2 (c)
+|    +--- commons-beanutils:commons-beanutils-core:1.8.3 (c)
+|    +--- org.jboss:jandex:2.1.1.Final (c)
+|    +--- org.jboss.classfilewriter:jboss-classfilewriter:1.2.4.Final (c)
+|    +--- org.jboss.invocation:jboss-invocation:1.5.1.Final (c)
+|    +--- org.wildfly.common:wildfly-common:1.5.0.Final-format-001 (c)
+|    +--- org.ow2.asm:asm:6.2.1 (c)
+|    +--- io.quarkus.arc:arc-runtime:0.11.0 (c)
+|    +--- org.jboss.logging:jboss-logging:3.3.2.Final (c)
+|    +--- javax.enterprise:cdi-api:2.0.SP1 -> 2.0 (c)
+|    +--- javax.annotation:javax.annotation-api:1.3.2 (c)
+|    +--- io.quarkus:quarkus-jaxb:0.11.0 (c)
+|    +--- io.quarkus:quarkus-undertow:0.11.0 (c)
+|    +--- org.jboss.resteasy:resteasy-json-p-provider:4.0.0.Beta8 (c)
+|    +--- org.jboss.resteasy:resteasy-json-binding-provider:4.0.0.Beta8 (c)
+|    +--- org.jboss.logmanager:jboss-logmanager-embedded:1.0.0 (c)
+|    +--- commons-logging:commons-logging:1.2 (c)
+|    +--- org.slf4j:slf4j-api:1.7.25 (c)
+|    +--- org.jboss.logging:jboss-logging-annotations:2.1.0.Final (c)
+|    +--- io.smallrye:smallrye-config:1.3.5 (c)
+|    +--- javax.inject:javax.inject:1 (c)
+|    +--- org.graalvm.sdk:graal-sdk:1.0.0-rc12 (c)
+|    +--- org.jboss.threads:jboss-threads:3.0.0.Alpha4 (c)
+|    +--- org.wildfly.security:wildfly-elytron-ssl:2.0.0.Alpha1 (c)
+|    +--- org.wildfly.security:wildfly-elytron-x500-cert:2.0.0.Alpha1 (c)
+|    +--- org.jboss.slf4j:slf4j-jboss-logging:1.1.0.Final (c)
+|    +--- io.undertow:undertow-servlet:2.0.17.Final (c)
+|    +--- org.jboss.metadata:jboss-metadata-web:11.0.0.Final (c)
+|    +--- javax.validation:validation-api:2.0.1.Final (c)
+|    +--- com.sun.activation:jakarta.activation:1.2.1 (c)
+|    +--- javax.json.bind:javax.json.bind-api:1.0 (c)
+|    +--- org.eclipse:yasson:1.0.2 (c)
+|    +--- org.glassfish:javax.json:1.1.4 (c)
+|    +--- com.oracle.substratevm:svm:1.0.0-rc12 (c)
+|    +--- org.eclipse.microprofile.config:microprofile-config-api:1.3 (c)
+|    +--- org.wildfly.security:wildfly-elytron-auth-server:2.0.0.Alpha1 (c)
+|    +--- org.jboss.resteasy:resteasy-core:4.0.0.Beta8 (c)
+|    +--- io.undertow:undertow-core:2.0.17.Final (c)
+|    +--- org.jboss.spec.javax.servlet:jboss-servlet-api_4.0_spec:1.0.0.Final (c)
+|    +--- org.jboss.xnio:xnio-api:3.6.5.Final (c)
+|    +--- org.jboss.xnio:xnio-nio:3.6.5.Final (c)
+|    +--- javax.xml.bind:jaxb-api:2.3.1 (c)
+|    +--- org.jboss.spec.javax.xml.bind:jboss-jaxb-api_2.3_spec:1.0.1.Final (c)
+|    +--- org.jboss.spec.javax.ws.rs:jboss-jaxrs-api_2.1_spec:1.0.2.Final (c)
+|    +--- commons-io:commons-io:2.5 (c)
+|    +--- org.apache.httpcomponents:httpclient:4.5.6 (c)
+|    +--- net.jcip:jcip-annotations:1.0 (c)
+|    +--- org.reactivestreams:reactive-streams:1.0.2 (c)
+|    +--- org.jboss.resteasy:resteasy-core-spi:4.0.0.Beta8 (c)
+|    \--- org.apache.httpcomponents:httpcore:4.4.10 (c)
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.21
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.3.21
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.3.21
+|    |    \--- org.jetbrains:annotations:13.0
+|    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.21
+|         \--- org.jetbrains.kotlin:kotlin-stdlib:1.3.21 (*)
++--- io.quarkus:quarkus-arc -> 0.11.0
+|    +--- io.quarkus:quarkus-core:0.11.0
+|    |    +--- commons-beanutils:commons-beanutils-core:1.8.3
+|    |    |    \--- commons-logging:commons-logging:1.1.1 -> 1.2
+|    |    +--- org.jboss.invocation:jboss-invocation:1.5.1.Final
+|    |    +--- org.wildfly.common:wildfly-common:1.5.0.Final-format-001
+|    |    +--- org.jboss.classfilewriter:jboss-classfilewriter:1.2.4.Final
+|    |    +--- io.quarkus.gizmo:gizmo:1.0.0.Alpha2
+|    |    |    +--- org.ow2.asm:asm:6.2.1
+|    |    |    \--- org.jboss:jandex:2.1.0.Final -> 2.1.1.Final
+|    |    +--- org.jboss:jandex:2.1.1.Final
+|    |    +--- org.ow2.asm:asm:6.2.1
+|    |    +--- io.quarkus:quarkus-core-runtime:0.11.0
+|    |    |    +--- javax.inject:javax.inject:1
+|    |    |    +--- javax.annotation:javax.annotation-api:1.3.2
+|    |    |    +--- io.smallrye:smallrye-config:1.3.5
+|    |    |    |    +--- org.eclipse.microprofile.config:microprofile-config-api:1.3
+|    |    |    |    |    \--- org.osgi:org.osgi.annotation.versioning:1.0.0
+|    |    |    |    +--- javax.enterprise:cdi-api:1.2 -> 2.0
+|    |    |    |    |    +--- javax.el:javax.el-api:3.0.0
+|    |    |    |    |    +--- javax.interceptor:javax.interceptor-api:1.2
+|    |    |    |    |    \--- javax.inject:javax.inject:1
+|    |    |    |    +--- javax.annotation:javax.annotation-api:1.2 -> 1.3.2
+|    |    |    |    \--- org.jboss.logging:jboss-logging:3.3.2.Final
+|    |    |    +--- org.jboss.logging:jboss-logging:3.3.2.Final
+|    |    |    +--- org.jboss.logmanager:jboss-logmanager-embedded:1.0.0
+|    |    |    |    +--- com.oracle.substratevm:svm:1.0.0-rc12
+|    |    |    |    \--- org.wildfly.common:wildfly-common:1.5.0.Final-format-001
+|    |    |    +--- org.jboss.logging:jboss-logging-annotations:2.1.0.Final
+|    |    |    +--- org.jboss.threads:jboss-threads:3.0.0.Alpha4
+|    |    |    |    +--- org.jboss.logging:jboss-logging:3.3.1.Final -> 3.3.2.Final
+|    |    |    |    \--- org.wildfly.common:wildfly-common:1.4.0.Final -> 1.5.0.Final-format-001
+|    |    |    +--- org.slf4j:slf4j-api:1.7.25
+|    |    |    +--- org.jboss.slf4j:slf4j-jboss-logging:1.1.0.Final
+|    |    |    |    +--- org.slf4j:slf4j-api:1.7.21 -> 1.7.25
+|    |    |    |    \--- org.jboss.logging:jboss-logging:3.3.0.Final -> 3.3.2.Final
+|    |    |    +--- org.graalvm.sdk:graal-sdk:1.0.0-rc12
+|    |    |    +--- org.wildfly.common:wildfly-common:1.5.0.Final-format-001
+|    |    |    +--- org.wildfly.security:wildfly-elytron-ssl:2.0.0.Alpha1
+|    |    |    |    +--- org.wildfly.security:wildfly-elytron-auth-server:2.0.0.Alpha1
+|    |    |    |    |    +--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-auth:2.0.0.Alpha1
+|    |    |    |    |    |    +--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    |    |    |    |    \--- org.wildfly.security:wildfly-elytron-util:2.0.0.Alpha1
+|    |    |    |    |    |         +--- org.wildfly.security:wildfly-elytron-asn1:2.0.0.Alpha1
+|    |    |    |    |    |         |    +--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    |    |    |    |         |    \--- org.jboss.logging:jboss-logging:3.3.1.Final -> 3.3.2.Final
+|    |    |    |    |    |         +--- org.wildfly.security:wildfly-elytron-base:2.0.0.Alpha1
+|    |    |    |    |    |         |    +--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    |    |    |    |         |    \--- org.jboss.logging:jboss-logging:3.3.1.Final -> 3.3.2.Final
+|    |    |    |    |    |         \--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-base:2.0.0.Alpha1 (*)
+|    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-credential:2.0.0.Alpha1
+|    |    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-asn1:2.0.0.Alpha1 (*)
+|    |    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-util:2.0.0.Alpha1 (*)
+|    |    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-x500:2.0.0.Alpha1
+|    |    |    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-asn1:2.0.0.Alpha1 (*)
+|    |    |    |    |    |    |    \--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    |    |    |    |    \--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-permission:2.0.0.Alpha1
+|    |    |    |    |    |    +--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-util:2.0.0.Alpha1 (*)
+|    |    |    |    |    |    \--- org.jboss.logging:jboss-logging:3.3.1.Final -> 3.3.2.Final
+|    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-util:2.0.0.Alpha1 (*)
+|    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-x500:2.0.0.Alpha1 (*)
+|    |    |    |    |    \--- org.jboss.logging:jboss-logging:3.3.1.Final -> 3.3.2.Final
+|    |    |    |    +--- org.wildfly.security:wildfly-elytron-base:2.0.0.Alpha1 (*)
+|    |    |    |    +--- org.wildfly.security:wildfly-elytron-credential:2.0.0.Alpha1 (*)
+|    |    |    |    +--- org.wildfly.security:wildfly-elytron-auth:2.0.0.Alpha1 (*)
+|    |    |    |    +--- org.wildfly.security:wildfly-elytron-util:2.0.0.Alpha1 (*)
+|    |    |    |    +--- org.wildfly.security:wildfly-elytron-x500:2.0.0.Alpha1 (*)
+|    |    |    |    +--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    |    |    \--- org.jboss.logging:jboss-logging:3.3.1.Final -> 3.3.2.Final
+|    |    |    \--- org.wildfly.security:wildfly-elytron-x500-cert:2.0.0.Alpha1
+|    |    |         +--- org.wildfly.security:wildfly-elytron-asn1:2.0.0.Alpha1 (*)
+|    |    |         +--- org.wildfly.security:wildfly-elytron-x500:2.0.0.Alpha1 (*)
+|    |    |         +--- org.wildfly.security:wildfly-elytron-x500-cert-util:2.0.0.Alpha1
+|    |    |         |    \--- org.wildfly.security:wildfly-elytron-asn1:2.0.0.Alpha1 (*)
+|    |    |         \--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    \--- io.quarkus:quarkus-builder:0.11.0
+|    |         +--- org.wildfly.common:wildfly-common:1.5.0.Final-format-001
+|    |         +--- org.jboss.logging:jboss-logging:3.3.2.Final
+|    |         \--- org.jboss.threads:jboss-threads:3.0.0.Alpha4 (*)
+|    +--- io.quarkus:quarkus-arc-runtime:0.11.0
+|    |    +--- io.quarkus.arc:arc-runtime:0.11.0
+|    |    |    +--- javax.enterprise:cdi-api:2.0.SP1 -> 2.0 (*)
+|    |    |    +--- javax.annotation:javax.annotation-api:1.3.2
+|    |    |    \--- org.jboss.logging:jboss-logging:3.3.2.Final
+|    |    \--- io.quarkus:quarkus-core-runtime:0.11.0 (*)
+|    \--- io.quarkus.arc:arc-processor:0.11.0
+|         +--- io.quarkus.arc:arc-runtime:0.11.0 (*)
+|         +--- javax.enterprise:cdi-api:2.0.SP1 -> 2.0 (*)
+|         +--- org.jboss.logging:jboss-logging:3.3.2.Final
+|         +--- org.jboss:jandex:2.1.0.Final -> 2.1.1.Final
+|         +--- io.quarkus.gizmo:gizmo:1.0.0.Alpha2 (*)
+|         \--- javax.annotation:javax.annotation-api:1.3.2
++--- io.quarkus:quarkus-resteasy-jsonb -> 0.11.0
+|    +--- io.quarkus:quarkus-resteasy:0.11.0
+|    |    +--- io.quarkus:quarkus-core:0.11.0 (*)
+|    |    +--- io.quarkus:quarkus-resteasy-common:0.11.0
+|    |    |    \--- io.quarkus:quarkus-resteasy-common-runtime:0.11.0
+|    |    |         +--- io.quarkus:quarkus-core-runtime:0.11.0 (*)
+|    |    |         \--- org.jboss.resteasy:resteasy-core:4.0.0.Beta8
+|    |    |              +--- org.jboss.spec.javax.ws.rs:jboss-jaxrs-api_2.1_spec:1.0.2.Final
+|    |    |              +--- org.jboss.spec.javax.xml.bind:jboss-jaxb-api_2.3_spec:1.0.1.Final
+|    |    |              +--- org.jboss.resteasy:resteasy-core-spi:4.0.0.Beta8
+|    |    |              |    +--- org.jboss.spec.javax.ws.rs:jboss-jaxrs-api_2.1_spec:1.0.2.Final
+|    |    |              |    +--- org.jboss.spec.javax.xml.bind:jboss-jaxb-api_2.3_spec:1.0.1.Final
+|    |    |              |    +--- org.reactivestreams:reactive-streams:1.0.2
+|    |    |              |    +--- javax.validation:validation-api:2.0.1.Final
+|    |    |              |    +--- org.apache.httpcomponents:httpclient:4.5.4 -> 4.5.6
+|    |    |              |    |    +--- org.apache.httpcomponents:httpcore:4.4.10
+|    |    |              |    |    +--- commons-logging:commons-logging:1.2
+|    |    |              |    |    \--- commons-codec:commons-codec:1.10
+|    |    |              |    +--- commons-io:commons-io:2.5
+|    |    |              |    +--- net.jcip:jcip-annotations:1.0
+|    |    |              |    \--- org.jboss.logging:jboss-logging:3.3.2.Final
+|    |    |              +--- org.reactivestreams:reactive-streams:1.0.2
+|    |    |              +--- javax.validation:validation-api:2.0.1.Final
+|    |    |              +--- org.apache.httpcomponents:httpclient:4.5.4 -> 4.5.6 (*)
+|    |    |              +--- commons-io:commons-io:2.5
+|    |    |              +--- net.jcip:jcip-annotations:1.0
+|    |    |              \--- org.jboss.logging:jboss-logging:3.3.2.Final
+|    |    +--- io.quarkus:quarkus-undertow:0.11.0
+|    |    |    +--- io.undertow:undertow-servlet:2.0.17.Final
+|    |    |    |    +--- io.undertow:undertow-core:2.0.17.Final
+|    |    |    |    |    +--- org.jboss.logging:jboss-logging:3.3.2.Final
+|    |    |    |    |    \--- org.jboss.xnio:xnio-api:3.3.8.Final -> 3.6.5.Final
+|    |    |    |    |         +--- org.wildfly.common:wildfly-common:1.3.0.Final -> 1.5.0.Final-format-001
+|    |    |    |    |         \--- org.jboss.threads:jboss-threads:2.3.0.Beta2 -> 3.0.0.Alpha4 (*)
+|    |    |    |    \--- org.jboss.spec.javax.servlet:jboss-servlet-api_4.0_spec:1.0.0.Final
+|    |    |    +--- io.quarkus:quarkus-core:0.11.0 (*)
+|    |    |    +--- io.quarkus:quarkus-arc:0.11.0 (*)
+|    |    |    +--- io.quarkus:quarkus-undertow-runtime:0.11.0
+|    |    |    |    +--- io.quarkus:quarkus-arc-runtime:0.11.0 (*)
+|    |    |    |    +--- io.undertow:undertow-servlet:2.0.17.Final (*)
+|    |    |    |    +--- org.jboss.xnio:xnio-nio:3.6.5.Final
+|    |    |    |    |    \--- org.jboss.xnio:xnio-api:3.6.5.Final (*)
+|    |    |    |    +--- org.jboss.xnio:xnio-api:3.6.5.Final (*)
+|    |    |    |    \--- io.quarkus:quarkus-core-runtime:0.11.0 (*)
+|    |    |    \--- org.jboss.metadata:jboss-metadata-web:11.0.0.Final
+|    |    |         \--- org.jboss.metadata:jboss-metadata-common:11.0.0.Final
+|    |    +--- io.quarkus:quarkus-arc:0.11.0 (*)
+|    |    +--- io.quarkus:quarkus-jaxb:0.11.0
+|    |    |    +--- io.quarkus:quarkus-core:0.11.0 (*)
+|    |    |    \--- io.quarkus:quarkus-jaxb-runtime:0.11.0
+|    |    |         +--- io.quarkus:quarkus-core-runtime:0.11.0 (*)
+|    |    |         \--- javax.xml.bind:jaxb-api:2.3.1
+|    |    \--- io.quarkus:quarkus-resteasy-runtime:0.11.0
+|    |         +--- io.quarkus:quarkus-core-runtime:0.11.0 (*)
+|    |         +--- io.quarkus:quarkus-undertow-runtime:0.11.0 (*)
+|    |         +--- io.quarkus:quarkus-arc-runtime:0.11.0 (*)
+|    |         +--- io.quarkus:quarkus-resteasy-common-runtime:0.11.0 (*)
+|    |         +--- javax.validation:validation-api:2.0.1.Final
+|    |         +--- com.sun.activation:jakarta.activation:1.2.1
+|    |         \--- io.quarkus:quarkus-jaxb-runtime:0.11.0 (*)
+|    \--- io.quarkus:quarkus-resteasy-jsonb-runtime:0.11.0
+|         +--- io.quarkus:quarkus-resteasy-runtime:0.11.0 (*)
+|         +--- org.jboss.resteasy:resteasy-json-binding-provider:4.0.0.Beta8
+|         |    +--- org.glassfish:javax.json:1.1.2 -> 1.1.4
+|         |    +--- javax.json.bind:javax.json.bind-api:1.0
+|         |    \--- org.eclipse:yasson:1.0.2
+|         |         +--- javax.json.bind:javax.json.bind-api:1.0
+|         |         \--- javax.enterprise:cdi-api:2.0 (*)
+|         \--- org.jboss.resteasy:resteasy-json-p-provider:4.0.0.Beta8
+|              \--- org.glassfish:javax.json:1.1.2 -> 1.1.4
++--- io.quarkus:quarkus-kotlin -> 0.11.0
+|    +--- io.quarkus:quarkus-development-mode:0.11.0
+|    |    +--- io.quarkus:quarkus-core:0.11.0 (*)
+|    |    \--- org.jboss.logmanager:jboss-logmanager-embedded:1.0.0 (*)
+|    \--- org.jetbrains.kotlin:kotlin-compiler-embeddable:1.3.21
++--- org.jetbrains.kotlin:kotlin-test:1.3.21
+|    +--- org.jetbrains.kotlin:kotlin-test-common:1.3.21
+|    |    \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.3.21
+|    \--- org.jetbrains.kotlin:kotlin-stdlib:1.3.21 (*)
+\--- org.jetbrains.kotlin:kotlin-test-junit:1.3.21
+     +--- org.jetbrains.kotlin:kotlin-test-annotations-common:1.3.21
+     |    \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.3.21
+     +--- org.jetbrains.kotlin:kotlin-test:1.3.21 (*)
+     \--- junit:junit:4.12
+          \--- org.hamcrest:hamcrest-core:1.3
+
+testKotlinScriptDef - Script filename extensions discovery classpath configuration
+No dependencies
+
+testKotlinScriptDefExtensions
+No dependencies
+
+testRuntime - Runtime dependencies for compilation 'test' (target  (jvm)) (deprecated, use 'testRuntimeOnly ' instead).
+No dependencies
+
+testRuntimeClasspath - Runtime classpath of compilation 'test' (target  (jvm)).
++--- io.quarkus:quarkus-bom:0.11.0
+|    +--- io.quarkus:quarkus-arc:0.11.0 (c)
+|    +--- io.quarkus:quarkus-resteasy-jsonb:0.11.0 (c)
+|    +--- io.quarkus:quarkus-kotlin:0.11.0 (c)
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.21 (c)
+|    +--- junit:junit:4.12 (c)
+|    +--- io.quarkus:quarkus-core:0.11.0 (c)
+|    +--- io.quarkus.arc:arc-processor:0.11.0 (c)
+|    +--- io.quarkus:quarkus-resteasy:0.11.0 (c)
+|    +--- org.jetbrains.kotlin:kotlin-compiler-embeddable:1.3.21 (c)
+|    +--- io.quarkus.gizmo:gizmo:1.0.0.Alpha2 (c)
+|    +--- commons-beanutils:commons-beanutils-core:1.8.3 (c)
+|    +--- org.jboss:jandex:2.1.1.Final (c)
+|    +--- org.jboss.classfilewriter:jboss-classfilewriter:1.2.4.Final (c)
+|    +--- org.jboss.invocation:jboss-invocation:1.5.1.Final (c)
+|    +--- org.wildfly.common:wildfly-common:1.5.0.Final-format-001 (c)
+|    +--- org.ow2.asm:asm:6.2.1 (c)
+|    +--- io.quarkus.arc:arc-runtime:0.11.0 (c)
+|    +--- org.jboss.logging:jboss-logging:3.3.2.Final (c)
+|    +--- javax.enterprise:cdi-api:2.0.SP1 -> 2.0 (c)
+|    +--- javax.annotation:javax.annotation-api:1.3.2 (c)
+|    +--- io.quarkus:quarkus-jaxb:0.11.0 (c)
+|    +--- io.quarkus:quarkus-undertow:0.11.0 (c)
+|    +--- org.jboss.resteasy:resteasy-json-p-provider:4.0.0.Beta8 (c)
+|    +--- org.jboss.resteasy:resteasy-json-binding-provider:4.0.0.Beta8 (c)
+|    +--- org.jboss.logmanager:jboss-logmanager-embedded:1.0.0 (c)
+|    +--- commons-logging:commons-logging:1.2 (c)
+|    +--- org.slf4j:slf4j-api:1.7.25 (c)
+|    +--- org.jboss.logging:jboss-logging-annotations:2.1.0.Final (c)
+|    +--- io.smallrye:smallrye-config:1.3.5 (c)
+|    +--- javax.inject:javax.inject:1 (c)
+|    +--- org.graalvm.sdk:graal-sdk:1.0.0-rc12 (c)
+|    +--- org.jboss.threads:jboss-threads:3.0.0.Alpha4 (c)
+|    +--- org.wildfly.security:wildfly-elytron-ssl:2.0.0.Alpha1 (c)
+|    +--- org.wildfly.security:wildfly-elytron-x500-cert:2.0.0.Alpha1 (c)
+|    +--- org.jboss.slf4j:slf4j-jboss-logging:1.1.0.Final (c)
+|    +--- io.undertow:undertow-servlet:2.0.17.Final (c)
+|    +--- org.jboss.metadata:jboss-metadata-web:11.0.0.Final (c)
+|    +--- javax.validation:validation-api:2.0.1.Final (c)
+|    +--- com.sun.activation:jakarta.activation:1.2.1 (c)
+|    +--- javax.json.bind:javax.json.bind-api:1.0 (c)
+|    +--- org.eclipse:yasson:1.0.2 (c)
+|    +--- org.glassfish:javax.json:1.1.4 (c)
+|    +--- com.oracle.substratevm:svm:1.0.0-rc12 (c)
+|    +--- org.eclipse.microprofile.config:microprofile-config-api:1.3 (c)
+|    +--- org.wildfly.security:wildfly-elytron-auth-server:2.0.0.Alpha1 (c)
+|    +--- org.jboss.resteasy:resteasy-core:4.0.0.Beta8 (c)
+|    +--- io.undertow:undertow-core:2.0.17.Final (c)
+|    +--- org.jboss.spec.javax.servlet:jboss-servlet-api_4.0_spec:1.0.0.Final (c)
+|    +--- org.jboss.xnio:xnio-api:3.6.5.Final (c)
+|    +--- org.jboss.xnio:xnio-nio:3.6.5.Final (c)
+|    +--- javax.xml.bind:jaxb-api:2.3.1 (c)
+|    +--- org.jboss.spec.javax.xml.bind:jboss-jaxb-api_2.3_spec:1.0.1.Final (c)
+|    +--- org.jboss.spec.javax.ws.rs:jboss-jaxrs-api_2.1_spec:1.0.2.Final (c)
+|    +--- commons-io:commons-io:2.5 (c)
+|    +--- org.apache.httpcomponents:httpclient:4.5.6 (c)
+|    +--- net.jcip:jcip-annotations:1.0 (c)
+|    +--- org.reactivestreams:reactive-streams:1.0.2 (c)
+|    +--- org.jboss.resteasy:resteasy-core-spi:4.0.0.Beta8 (c)
+|    \--- org.apache.httpcomponents:httpcore:4.4.10 (c)
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.21
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.3.21
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.3.21
+|    |    \--- org.jetbrains:annotations:13.0
+|    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.21
+|         \--- org.jetbrains.kotlin:kotlin-stdlib:1.3.21 (*)
++--- io.quarkus:quarkus-arc -> 0.11.0
+|    +--- io.quarkus:quarkus-core:0.11.0
+|    |    +--- commons-beanutils:commons-beanutils-core:1.8.3
+|    |    |    \--- commons-logging:commons-logging:1.1.1 -> 1.2
+|    |    +--- org.jboss.invocation:jboss-invocation:1.5.1.Final
+|    |    +--- org.wildfly.common:wildfly-common:1.5.0.Final-format-001
+|    |    +--- org.jboss.classfilewriter:jboss-classfilewriter:1.2.4.Final
+|    |    +--- io.quarkus.gizmo:gizmo:1.0.0.Alpha2
+|    |    |    +--- org.ow2.asm:asm:6.2.1
+|    |    |    \--- org.jboss:jandex:2.1.0.Final -> 2.1.1.Final
+|    |    +--- org.jboss:jandex:2.1.1.Final
+|    |    +--- org.ow2.asm:asm:6.2.1
+|    |    +--- io.quarkus:quarkus-core-runtime:0.11.0
+|    |    |    +--- javax.inject:javax.inject:1
+|    |    |    +--- javax.annotation:javax.annotation-api:1.3.2
+|    |    |    +--- io.smallrye:smallrye-config:1.3.5
+|    |    |    |    +--- org.eclipse.microprofile.config:microprofile-config-api:1.3
+|    |    |    |    |    \--- org.osgi:org.osgi.annotation.versioning:1.0.0
+|    |    |    |    +--- javax.enterprise:cdi-api:1.2 -> 2.0
+|    |    |    |    |    +--- javax.el:javax.el-api:3.0.0
+|    |    |    |    |    +--- javax.interceptor:javax.interceptor-api:1.2
+|    |    |    |    |    \--- javax.inject:javax.inject:1
+|    |    |    |    +--- javax.annotation:javax.annotation-api:1.2 -> 1.3.2
+|    |    |    |    \--- org.jboss.logging:jboss-logging:3.3.2.Final
+|    |    |    +--- org.jboss.logging:jboss-logging:3.3.2.Final
+|    |    |    +--- org.jboss.logmanager:jboss-logmanager-embedded:1.0.0
+|    |    |    |    +--- com.oracle.substratevm:svm:1.0.0-rc12
+|    |    |    |    \--- org.wildfly.common:wildfly-common:1.5.0.Final-format-001
+|    |    |    +--- org.jboss.logging:jboss-logging-annotations:2.1.0.Final
+|    |    |    +--- org.jboss.threads:jboss-threads:3.0.0.Alpha4
+|    |    |    |    +--- org.jboss.logging:jboss-logging:3.3.1.Final -> 3.3.2.Final
+|    |    |    |    \--- org.wildfly.common:wildfly-common:1.4.0.Final -> 1.5.0.Final-format-001
+|    |    |    +--- org.slf4j:slf4j-api:1.7.25
+|    |    |    +--- org.jboss.slf4j:slf4j-jboss-logging:1.1.0.Final
+|    |    |    |    +--- org.slf4j:slf4j-api:1.7.21 -> 1.7.25
+|    |    |    |    \--- org.jboss.logging:jboss-logging:3.3.0.Final -> 3.3.2.Final
+|    |    |    +--- org.graalvm.sdk:graal-sdk:1.0.0-rc12
+|    |    |    +--- org.wildfly.common:wildfly-common:1.5.0.Final-format-001
+|    |    |    +--- org.wildfly.security:wildfly-elytron-ssl:2.0.0.Alpha1
+|    |    |    |    +--- org.wildfly.security:wildfly-elytron-auth-server:2.0.0.Alpha1
+|    |    |    |    |    +--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-auth:2.0.0.Alpha1
+|    |    |    |    |    |    +--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    |    |    |    |    \--- org.wildfly.security:wildfly-elytron-util:2.0.0.Alpha1
+|    |    |    |    |    |         +--- org.wildfly.security:wildfly-elytron-asn1:2.0.0.Alpha1
+|    |    |    |    |    |         |    +--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    |    |    |    |         |    \--- org.jboss.logging:jboss-logging:3.3.1.Final -> 3.3.2.Final
+|    |    |    |    |    |         +--- org.wildfly.security:wildfly-elytron-base:2.0.0.Alpha1
+|    |    |    |    |    |         |    +--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    |    |    |    |         |    \--- org.jboss.logging:jboss-logging:3.3.1.Final -> 3.3.2.Final
+|    |    |    |    |    |         \--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-base:2.0.0.Alpha1 (*)
+|    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-credential:2.0.0.Alpha1
+|    |    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-asn1:2.0.0.Alpha1 (*)
+|    |    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-util:2.0.0.Alpha1 (*)
+|    |    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-x500:2.0.0.Alpha1
+|    |    |    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-asn1:2.0.0.Alpha1 (*)
+|    |    |    |    |    |    |    \--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    |    |    |    |    \--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-permission:2.0.0.Alpha1
+|    |    |    |    |    |    +--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-util:2.0.0.Alpha1 (*)
+|    |    |    |    |    |    \--- org.jboss.logging:jboss-logging:3.3.1.Final -> 3.3.2.Final
+|    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-util:2.0.0.Alpha1 (*)
+|    |    |    |    |    +--- org.wildfly.security:wildfly-elytron-x500:2.0.0.Alpha1 (*)
+|    |    |    |    |    \--- org.jboss.logging:jboss-logging:3.3.1.Final -> 3.3.2.Final
+|    |    |    |    +--- org.wildfly.security:wildfly-elytron-base:2.0.0.Alpha1 (*)
+|    |    |    |    +--- org.wildfly.security:wildfly-elytron-credential:2.0.0.Alpha1 (*)
+|    |    |    |    +--- org.wildfly.security:wildfly-elytron-auth:2.0.0.Alpha1 (*)
+|    |    |    |    +--- org.wildfly.security:wildfly-elytron-util:2.0.0.Alpha1 (*)
+|    |    |    |    +--- org.wildfly.security:wildfly-elytron-x500:2.0.0.Alpha1 (*)
+|    |    |    |    +--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    |    |    \--- org.jboss.logging:jboss-logging:3.3.1.Final -> 3.3.2.Final
+|    |    |    \--- org.wildfly.security:wildfly-elytron-x500-cert:2.0.0.Alpha1
+|    |    |         +--- org.wildfly.security:wildfly-elytron-asn1:2.0.0.Alpha1 (*)
+|    |    |         +--- org.wildfly.security:wildfly-elytron-x500:2.0.0.Alpha1 (*)
+|    |    |         +--- org.wildfly.security:wildfly-elytron-x500-cert-util:2.0.0.Alpha1
+|    |    |         |    \--- org.wildfly.security:wildfly-elytron-asn1:2.0.0.Alpha1 (*)
+|    |    |         \--- org.wildfly.common:wildfly-common:1.5.0.Alpha4 -> 1.5.0.Final-format-001
+|    |    \--- io.quarkus:quarkus-builder:0.11.0
+|    |         +--- org.wildfly.common:wildfly-common:1.5.0.Final-format-001
+|    |         +--- org.jboss.logging:jboss-logging:3.3.2.Final
+|    |         \--- org.jboss.threads:jboss-threads:3.0.0.Alpha4 (*)
+|    +--- io.quarkus:quarkus-arc-runtime:0.11.0
+|    |    +--- io.quarkus.arc:arc-runtime:0.11.0
+|    |    |    +--- javax.enterprise:cdi-api:2.0.SP1 -> 2.0 (*)
+|    |    |    +--- javax.annotation:javax.annotation-api:1.3.2
+|    |    |    \--- org.jboss.logging:jboss-logging:3.3.2.Final
+|    |    \--- io.quarkus:quarkus-core-runtime:0.11.0 (*)
+|    \--- io.quarkus.arc:arc-processor:0.11.0
+|         +--- io.quarkus.arc:arc-runtime:0.11.0 (*)
+|         +--- javax.enterprise:cdi-api:2.0.SP1 -> 2.0 (*)
+|         +--- org.jboss.logging:jboss-logging:3.3.2.Final
+|         +--- org.jboss:jandex:2.1.0.Final -> 2.1.1.Final
+|         +--- io.quarkus.gizmo:gizmo:1.0.0.Alpha2 (*)
+|         \--- javax.annotation:javax.annotation-api:1.3.2
++--- io.quarkus:quarkus-resteasy-jsonb -> 0.11.0
+|    +--- io.quarkus:quarkus-resteasy:0.11.0
+|    |    +--- io.quarkus:quarkus-core:0.11.0 (*)
+|    |    +--- io.quarkus:quarkus-resteasy-common:0.11.0
+|    |    |    \--- io.quarkus:quarkus-resteasy-common-runtime:0.11.0
+|    |    |         +--- io.quarkus:quarkus-core-runtime:0.11.0 (*)
+|    |    |         \--- org.jboss.resteasy:resteasy-core:4.0.0.Beta8
+|    |    |              +--- org.jboss.spec.javax.ws.rs:jboss-jaxrs-api_2.1_spec:1.0.2.Final
+|    |    |              +--- org.jboss.spec.javax.xml.bind:jboss-jaxb-api_2.3_spec:1.0.1.Final
+|    |    |              +--- org.jboss.resteasy:resteasy-core-spi:4.0.0.Beta8
+|    |    |              |    +--- org.jboss.spec.javax.ws.rs:jboss-jaxrs-api_2.1_spec:1.0.2.Final
+|    |    |              |    +--- org.jboss.spec.javax.xml.bind:jboss-jaxb-api_2.3_spec:1.0.1.Final
+|    |    |              |    +--- org.reactivestreams:reactive-streams:1.0.2
+|    |    |              |    +--- javax.validation:validation-api:2.0.1.Final
+|    |    |              |    +--- org.apache.httpcomponents:httpclient:4.5.4 -> 4.5.6
+|    |    |              |    |    +--- org.apache.httpcomponents:httpcore:4.4.10
+|    |    |              |    |    +--- commons-logging:commons-logging:1.2
+|    |    |              |    |    \--- commons-codec:commons-codec:1.10
+|    |    |              |    +--- commons-io:commons-io:2.5
+|    |    |              |    +--- net.jcip:jcip-annotations:1.0
+|    |    |              |    \--- org.jboss.logging:jboss-logging:3.3.2.Final
+|    |    |              +--- org.reactivestreams:reactive-streams:1.0.2
+|    |    |              +--- javax.validation:validation-api:2.0.1.Final
+|    |    |              +--- org.apache.httpcomponents:httpclient:4.5.4 -> 4.5.6 (*)
+|    |    |              +--- commons-io:commons-io:2.5
+|    |    |              +--- net.jcip:jcip-annotations:1.0
+|    |    |              \--- org.jboss.logging:jboss-logging:3.3.2.Final
+|    |    +--- io.quarkus:quarkus-undertow:0.11.0
+|    |    |    +--- io.undertow:undertow-servlet:2.0.17.Final
+|    |    |    |    +--- io.undertow:undertow-core:2.0.17.Final
+|    |    |    |    |    +--- org.jboss.logging:jboss-logging:3.3.2.Final
+|    |    |    |    |    +--- org.jboss.xnio:xnio-api:3.3.8.Final -> 3.6.5.Final
+|    |    |    |    |    |    +--- org.wildfly.common:wildfly-common:1.3.0.Final -> 1.5.0.Final-format-001
+|    |    |    |    |    |    \--- org.jboss.threads:jboss-threads:2.3.0.Beta2 -> 3.0.0.Alpha4 (*)
+|    |    |    |    |    \--- org.jboss.xnio:xnio-nio:3.3.8.Final -> 3.6.5.Final
+|    |    |    |    |         \--- org.jboss.xnio:xnio-api:3.6.5.Final (*)
+|    |    |    |    \--- org.jboss.spec.javax.servlet:jboss-servlet-api_4.0_spec:1.0.0.Final
+|    |    |    +--- io.quarkus:quarkus-core:0.11.0 (*)
+|    |    |    +--- io.quarkus:quarkus-arc:0.11.0 (*)
+|    |    |    +--- io.quarkus:quarkus-undertow-runtime:0.11.0
+|    |    |    |    +--- io.quarkus:quarkus-arc-runtime:0.11.0 (*)
+|    |    |    |    +--- io.undertow:undertow-servlet:2.0.17.Final (*)
+|    |    |    |    +--- org.jboss.xnio:xnio-nio:3.6.5.Final (*)
+|    |    |    |    +--- org.jboss.xnio:xnio-api:3.6.5.Final (*)
+|    |    |    |    \--- io.quarkus:quarkus-core-runtime:0.11.0 (*)
+|    |    |    \--- org.jboss.metadata:jboss-metadata-web:11.0.0.Final
+|    |    |         \--- org.jboss.metadata:jboss-metadata-common:11.0.0.Final
+|    |    +--- io.quarkus:quarkus-arc:0.11.0 (*)
+|    |    +--- io.quarkus:quarkus-jaxb:0.11.0
+|    |    |    +--- io.quarkus:quarkus-core:0.11.0 (*)
+|    |    |    \--- io.quarkus:quarkus-jaxb-runtime:0.11.0
+|    |    |         +--- io.quarkus:quarkus-core-runtime:0.11.0 (*)
+|    |    |         \--- javax.xml.bind:jaxb-api:2.3.1
+|    |    \--- io.quarkus:quarkus-resteasy-runtime:0.11.0
+|    |         +--- io.quarkus:quarkus-core-runtime:0.11.0 (*)
+|    |         +--- io.quarkus:quarkus-undertow-runtime:0.11.0 (*)
+|    |         +--- io.quarkus:quarkus-arc-runtime:0.11.0 (*)
+|    |         +--- io.quarkus:quarkus-resteasy-common-runtime:0.11.0 (*)
+|    |         +--- javax.validation:validation-api:2.0.1.Final
+|    |         +--- com.sun.activation:jakarta.activation:1.2.1
+|    |         \--- io.quarkus:quarkus-jaxb-runtime:0.11.0 (*)
+|    \--- io.quarkus:quarkus-resteasy-jsonb-runtime:0.11.0
+|         +--- io.quarkus:quarkus-resteasy-runtime:0.11.0 (*)
+|         +--- org.jboss.resteasy:resteasy-json-binding-provider:4.0.0.Beta8
+|         |    +--- org.glassfish:javax.json:1.1.2 -> 1.1.4
+|         |    +--- javax.json.bind:javax.json.bind-api:1.0
+|         |    \--- org.eclipse:yasson:1.0.2
+|         |         +--- javax.json.bind:javax.json.bind-api:1.0
+|         |         \--- javax.enterprise:cdi-api:2.0 (*)
+|         \--- org.jboss.resteasy:resteasy-json-p-provider:4.0.0.Beta8
+|              \--- org.glassfish:javax.json:1.1.2 -> 1.1.4
++--- io.quarkus:quarkus-kotlin -> 0.11.0
+|    +--- io.quarkus:quarkus-development-mode:0.11.0
+|    |    +--- io.quarkus:quarkus-core:0.11.0 (*)
+|    |    \--- org.jboss.logmanager:jboss-logmanager-embedded:1.0.0 (*)
+|    \--- org.jetbrains.kotlin:kotlin-compiler-embeddable:1.3.21
+|         +--- org.jetbrains.kotlin:kotlin-stdlib:1.3.21 (*)
+|         +--- org.jetbrains.kotlin:kotlin-script-runtime:1.3.21
+|         +--- org.jetbrains.kotlin:kotlin-reflect:1.3.21
+|         |    \--- org.jetbrains.kotlin:kotlin-stdlib:1.3.21 (*)
+|         \--- org.jetbrains.intellij.deps:trove4j:1.0.20181211
++--- org.jetbrains.kotlin:kotlin-test:1.3.21
+|    +--- org.jetbrains.kotlin:kotlin-test-common:1.3.21
+|    |    \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.3.21
+|    \--- org.jetbrains.kotlin:kotlin-stdlib:1.3.21 (*)
+\--- org.jetbrains.kotlin:kotlin-test-junit:1.3.21
+     +--- org.jetbrains.kotlin:kotlin-test-annotations-common:1.3.21
+     |    \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.3.21
+     +--- org.jetbrains.kotlin:kotlin-test:1.3.21 (*)
+     \--- junit:junit:4.12
+          \--- org.hamcrest:hamcrest-core:1.3
+
+testRuntimeOnly - Runtime only dependencies for compilation 'test' (target  (jvm)). (n)
+No dependencies
+
+testRuntimeOnlyDependenciesMetadata
+No dependencies
+
+(c) - dependency constraint
+(*) - dependencies omitted (listed previously)
+
+(n) - Not resolved (configuration is not meant to be resolved)
+
+A web-based, searchable dependency report is available by adding the --scan option.
+
+BUILD SUCCESSFUL in 7s
+1 actionable task: 1 executed
