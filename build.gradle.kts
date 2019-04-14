@@ -1,8 +1,7 @@
 plugins {
     // Apply the Kotlin JVM plugin to add support for Kotlin on the JVM.
-    id("org.jetbrains.kotlin.jvm").version("1.3.21")
-    id("io.quarkus.gradle.plugin").version("0.12.0")
-
+    id("org.jetbrains.kotlin.jvm") version("1.3.21")
+    id("io.quarkus") version "0.13.1"
     // Apply the application plugin to add support for building a CLI application.
 //    application
     idea
@@ -11,7 +10,7 @@ plugins {
 repositories {
     // Use jcenter for resolving your dependencies.
     // You can declare any Maven/Ivy/file repository here.
-    jcenter()
+    mavenCentral()
 
     maven(
         // this is temporary, all dependencies should be in central soon
@@ -20,12 +19,12 @@ repositories {
 }
 
 dependencies {
-//    implementation(platform("io.quarkus:quarkus-bom:0.12.0"))
-    implementation("io.quarkus:quarkus-resteasy:0.12.0")
+//    implementation(platform("io.quarkus:quarkus-bom:0.13.1"))
+    implementation("io.quarkus:quarkus-resteasy:0.13.1")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
-    implementation("io.quarkus:quarkus-arc:0.12.0")
-    implementation("io.quarkus:quarkus-resteasy-jsonb:0.12.0")
-    implementation("io.quarkus:quarkus-kotlin:0.12.0")
+    implementation("io.quarkus:quarkus-arc:0.13.1")
+    implementation("io.quarkus:quarkus-resteasy-jsonb:0.13.1")
+    implementation("io.quarkus:quarkus-kotlin:0.13.1")
     testImplementation("org.jetbrains.kotlin:kotlin-test")
 
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit")
@@ -41,6 +40,5 @@ dependencies {
 
 quarkus {
     setSourceDir("src/main/kotlin")
-    resourcesDir().add(File("src/main/resources"))
     setOutputDirectory("build/classes/kotlin/main")
 }

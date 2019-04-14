@@ -8,8 +8,7 @@ import javax.ws.rs.core.MediaType
 @Path("/")
 class GreetingResource {
     @GET
+    @Path("/hello")
     @Produces(MediaType.APPLICATION_JSON)
-    // uncomment the below line and comment line 14 to reproduce the error
-//    fun hello() = Greeting("1234")
-    fun hello() = "1234"
+    fun hello() = Greeting("1234")
 }
